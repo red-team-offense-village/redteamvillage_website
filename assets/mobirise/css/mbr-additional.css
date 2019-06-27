@@ -1660,6 +1660,11 @@ body {
 .cid-rute7JuQW3 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
+@media (min-width: 992px) {
+  .cid-rute7JuQW3 .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
+}
 .cid-rute7JuQW3 .collapsed button.navbar-toggler {
   display: block;
 }
@@ -2221,6 +2226,11 @@ body {
 .cid-rute7JuQW3 .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rute7JuQW3 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-rute7JuQW3 .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
 }
 .cid-rute7JuQW3 .collapsed button.navbar-toggler {
   display: block;
