@@ -2913,24 +2913,3 @@ body {
 .cid-ruKoL5zroD .mbr-section-btn {
   text-align: left;
 }
-.cid-ruKp7kASdX {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-ruKp7kASdX .title {
-  margin-bottom: 2rem;
-}
-.cid-ruKp7kASdX .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-ruKp7kASdX a:not([href]):not([tabindex]) {
-  color: #fff;
-  border-radius: 3px;
-}
-.cid-ruKp7kASdX a.btn-white:not([href]):not([tabindex]) {
-  color: #333;
-}
-.cid-ruKp7kASdX textarea.form-control {
-  min-height: 188px;
-}
