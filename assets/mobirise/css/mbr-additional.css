@@ -1847,33 +1847,104 @@ body {
     text-align: center;
   }
 }
-.cid-rutfpW4Nh1 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-rw8XAKRntY {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #b2ccd2;
+}
+.cid-rw8XAKRntY .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rw8OjaTTKD {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-rutfpW4Nh1 h3 {
-  text-align: center;
+@media (min-width: 992px) {
+  .cid-rw8OjaTTKD .mbr-figure {
+    padding-right: 4rem;
+  }
 }
-.cid-rutfpW4Nh1 .mbr-section-subtitle {
+@media (max-width: 991px) {
+  .cid-rw8OjaTTKD .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rw8OjaTTKD .mbr-text {
   color: #767676;
-  font-weight: 300;
 }
-.cid-rutfpW4Nh1 .mbr-content-text {
+.cid-rw8UOPd5TF {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/background4.jpg");
+}
+.cid-rw8Ve2Wx4h {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #efefef;
+}
+.cid-rw8Ve2Wx4h .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-rw8Ve2Wx4h h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rw8Ve2Wx4h p {
   color: #767676;
+  text-align: left;
 }
-.cid-rutfpW4Nh1 .panel-item {
-  background: #ffffff;
+.cid-rw8Ve2Wx4h .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-rutfpW4Nh1 .card {
-  word-wrap: break-word;
+.cid-rw8Ve2Wx4h .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
-.cid-rutfpW4Nh1 .mbr-iconfont {
-  font-size: 80px;
-  color: #149dcc;
+.cid-rw8Ve2Wx4h .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
-.cid-rutfpW4Nh1 H3 {
-  color: #ffffff;
+.cid-rw8Vf0LXjK {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+.cid-rw8Vf0LXjK .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-rw8Vf0LXjK h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rw8Vf0LXjK p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rw8Vf0LXjK .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rw8Vf0LXjK .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rw8Vf0LXjK .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-rutkc8TwTD {
   padding-top: 60px;
