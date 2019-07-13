@@ -4106,6 +4106,100 @@ body {
 .cid-rw4uuwWDqO .mbr-timeline-text {
   text-align: left;
 }
+.cid-rw5fo680aM {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rw5fo680aM .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rw5fo680aM .timeline-text-content {
+  padding: 2rem 2.5rem;
+  background: #efefef;
+  margin-right: 2rem;
+  transition: all .4s;
+}
+.cid-rw5fo680aM .timeline-text-content p {
+  margin-bottom: 0;
+}
+.cid-rw5fo680aM .timeline-element {
+  margin-bottom: 50px;
+  position: relative;
+  word-wrap: break-word;
+  word-break: break-word;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.cid-rw5fo680aM .timeline-element:hover .timeline-text-content {
+  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
+  transition: all .4s;
+}
+.cid-rw5fo680aM .reverse {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.cid-rw5fo680aM .reverse .timeline-text-content {
+  margin-left: 2rem;
+  margin-right: 0;
+}
+.cid-rw5fo680aM .iconsBackground {
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #efefef;
+  top: 20px;
+  margin-left: -30px;
+}
+.cid-rw5fo680aM .mbr-iconfont {
+  position: absolute;
+  text-align: center;
+  font-size: 35px;
+  display: inline-block;
+  z-index: 3;
+  top: 13px;
+  left: 13px;
+}
+.cid-rw5fo680aM .separline:before {
+  top: 20px;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #efefef;
+  left: calc(50% - 1px);
+  height: calc(100% + 4rem);
+}
+@media (max-width: 768px) {
+  .cid-rw5fo680aM .iconsBackground {
+    left: 1.5rem;
+  }
+  .cid-rw5fo680aM .separline:before {
+    left: calc(1.5rem - 1px);
+  }
+  .cid-rw5fo680aM .timeline-text-content {
+    margin-left: 3rem !important;
+    margin-right: 0 !important;
+  }
+  .cid-rw5fo680aM .reverse .timeline-text-content {
+    margin-right: 0 !important;
+  }
+}
+.cid-rw5fo680aM .reverseTimeline {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.cid-rw5fo680aM .mbr-timeline-text {
+  text-align: left;
+}
 .cid-rvviJsRsP6 .navbar {
   padding: .5rem 0;
   background: #333333;
