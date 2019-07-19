@@ -34,7 +34,7 @@
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/rtov-sword-128x128.png",
     "noImageResize": "",
-    "uniqCompNum": 81,
+    "uniqCompNum": 85,
     "versionPublish": "4.10.4",
     "screenshot": "screenshot.png"
   },
@@ -877,7 +877,7 @@
       "settings": {
         "meta_descr": "DEF CON Red Team Offense Village - Call for Papers",
         "title": "Red Team Offense Village - DEF CON Call for Papers",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1370,8 +1370,8 @@
     },
     "dj.html": {
       "settings": {
-        "meta_descr": "Call for DJs - DEF CON Red Team Offense Village",
-        "title": "Call for DJs - DEF CON Red Team Offense Village",
+        "meta_descr": "The Red Team Offense Village will have different DJs playing music during the DEF CON 27 Red Team Offense Village. \n\nStyle: All styles are welcome. This includes funk, hip-hop, house, techno, jungle, dubstep, country, 2 hours of bleeping sounds …. Whatever you want as long as it doesn’t anger listeners.",
+        "title": "DJ Schedule - DEF CON Red Team Offense Village",
         "order": 2
       },
       "components": [
@@ -1872,7 +1872,7 @@
       "settings": {
         "meta_descr": "Become a volunteer! - The DEF CON Red Team Offense Village volunteers are the heart of this village, they bring a wealth of expertise, experiences and uniqueness to help make us the DEF CON village of the year. ",
         "title": "Volunteers - Red Team Offense Village - DEF CON ",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
