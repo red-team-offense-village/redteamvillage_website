@@ -1946,6 +1946,29 @@ body {
   width: 100%;
   overflow: hidden;
 }
+.cid-rxs7pZBSxN {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
+.cid-rxs7C0Lsf6 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-rxs7C0Lsf6 .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rxs7C0Lsf6 .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rxs7C0Lsf6 .mbr-text {
+  color: #767676;
+}
 .cid-rutkc8TwTD {
   padding-top: 60px;
   padding-bottom: 60px;
