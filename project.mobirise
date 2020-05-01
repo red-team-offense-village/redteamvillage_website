@@ -48,7 +48,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/omar/Documents"
   },
   "pages": {
     "index.html": {
