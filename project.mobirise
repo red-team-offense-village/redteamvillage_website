@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Offense Village",
-    "currentPage": "mayhem.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -354,7 +354,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "A virtual conference on <b>May 16th from 0900 EDT</b>. Steamed via YouTube.&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Schedule</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://redteamvillage.io/youtube\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Our YouTube Channel</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-white\" data-app-placeholder=\"Type Text\" href=\"https://redteamvillage.io/discord\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join our Discord</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"mayhem.html\" data-toolbar=\"-mbrBtnMove\">Talks and Workshops</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://redteamvillage.io/youtube\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Our YouTube Channel</a> <a data-app-btn=\"true\" class=\"btn  display-4 btn-white\" data-app-placeholder=\"Type Text\" href=\"https://redteamvillage.io/discord\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Join our Discord</a>",
                 "overlayOpacity": "0.8"
               }
             ]
