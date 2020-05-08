@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Offense Village",
-    "currentPage": "2020.html",
+    "currentPage": "mayhem.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -457,7 +457,7 @@
     "mayhem.html": {
       "settings": {
         "meta_descr": "Cybersecurity virtual conference during the COVID-19 pandemic hosted by the DEF CON Red Team Village.",
-        "title": "Red Team Village May'hem",
+        "title": "Mayhem: DEF CON Red Team Village May'hem Summit",
         "order": 3
       },
       "components": [
@@ -975,8 +975,8 @@
     },
     "mayhem-schedule.html": {
       "settings": {
-        "meta_descr": "Red Team Village May'hem schedule",
-        "title": "mayhem-schedule",
+        "meta_descr": "DEF CON Red Team Village May'hem schedule",
+        "title": "Schedule: DEF CON Red Team Village May'hem",
         "order": 2
       },
       "components": [
@@ -1196,7 +1196,7 @@
     "mayhem-training.html": {
       "settings": {
         "meta_descr": "DEF CON Red Team Village Mayhem Summit Training",
-        "title": "Red Team Village Mayhem Summit Training",
+        "title": "Training: DEF CON Red Team Village Mayhem Summit",
         "order": 1
       },
       "components": [
