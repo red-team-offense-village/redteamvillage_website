@@ -50,9 +50,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "file:///Users/omar/Documents/GitHub/redteamvillage_website"
+    "gdpr": false
   },
   "pages": {
     "index.html": {
