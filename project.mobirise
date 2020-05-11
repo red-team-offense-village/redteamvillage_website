@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Offense Village",
-    "currentPage": "mayhem.html",
+    "currentPage": "2020.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -42,7 +42,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 40,
+    "uniqCompNum": 41,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/demon-removebg-preview-1.png",
@@ -1546,12 +1546,49 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
           },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://redteamvillage.io/sponsors/RTOV_Prospectus.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">SPONSOR PACKAGE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rWW2dz8Y0X",
-          "_anchor": "content8-k",
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/randori.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Thank you to our Sponsors!</b>&nbsp;<br>Want to sponsor us? See our <a href=\"https://redteamvillage.io/sponsors/RTOV_Prospectus.pdf\" target=\"_blank\">sponsor package</a>.<br><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content6-14",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rYGS799lWd",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1568,7 +1605,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Thank you to our sponsors! The DEF CON Red Team Village is <b><u>a community driven village</u></b>. We would like to thank our sponsors for supporting the cybersecurity community and the DEF CON Red Team Village. </p><p>The Red Team Offense Village (RTOV) was created to bridge the gap between penetration testers and offensive team functions. While DEF CON is considered a “hacking conference” somewhat of an offensive conference, there are a great more challenges and villages devoted to defense. </p><p>The Red Team Offense Village is focused at training the art of critical strategy, collaboration and thinking. Where seventy five percent of the work should be done prior to any engagement. We say “not every nail requires a hammer” and not everything that looks like a nail – is. </p><p>By supporting the RTOV, you allow us to ensure the latest Equipment, Tools, Techniques and Materials are made available for learning, engagement and knowledge transfer. The Red Team Operator is a necessary component in the training of the Blue Team’s defense skills. These two teams help each other build skills and grow in abilities, while a blended approach teaches both skills (Purple) this approach makes no-one an expert at either. </p><p>The Red Team Offense Village focuses on a particular skillset (red) and works to build skilled, efficient operators. Thank you for your interest in supporting the RTOV and its furtherance of the mission to train the next generation of red teamers, ethical hackers, penetration testers, and operators.&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Thank you to our sponsors! The DEF CON Red Team Village is <b><u>a community driven village</u></b>. We would like to thank our sponsors for supporting the cybersecurity community and the DEF CON Red Team Village. </p><p>The Red Team Offense Village (RTOV) was created to bridge the gap between penetration testers and offensive team functions. While DEF CON is considered a “hacking conference” somewhat of an offensive conference, there are a great more challenges and villages devoted to defense. </p><p>The Red Team Offense Village is focused at training the art of critical strategy, collaboration and thinking. Where seventy five percent of the work should be done prior to any engagement. We say “not every nail requires a hammer” and not everything that looks like a nail – is. </p><p>By supporting the RTOV, you allow us to ensure the latest Equipment, Tools, Techniques and Materials are made available for learning, engagement and knowledge transfer. The Red Team Operator is a necessary component in the training of the Blue Team’s defense skills. These two teams help each other build skills and grow in abilities, while a blended approach teaches both skills (Purple) this approach makes no-one an expert at either. </p><p>The Red Team Offense Village focuses on a particular skillset (red) and works to build skilled, efficient operators. Thank you for your interest in supporting the RTOV and its furtherance of the mission to train the next generation of red teamers, ethical hackers, penetration testers, and operators.&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rWW2aF4CXO",
           "_anchor": "content1-j",
           "_protectedParams": [],
