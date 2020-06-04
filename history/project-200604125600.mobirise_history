@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Offense Village",
-    "currentPage": "index.html",
+    "currentPage": "mayhem.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,7 +43,7 @@
       }
     ],
     "uniqCompNum": 68,
-    "versionPublish": "4.12.3",
+    "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/demon-removebg-preview-1.png",
     "imageResize": false,
@@ -52,17 +52,14 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "gdpr": false
   },
   "pages": {
     "mayhem.html": {
       "settings": {
         "meta_descr": "Cybersecurity virtual conference during the COVID-19 pandemic hosted by the DEF CON Red Team Village.",
         "title": "Mayhem: DEF CON Red Team Village May'hem Summit",
-        "order": 6,
-        "meta_image": "@PROJECT_PATH@/assets/images/red-team-villate-logo-2-696x696.png"
+        "order": 6
       },
       "components": [
         {
@@ -539,11 +536,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=KYCzakkmHqo&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZjkcinXrS",
-          "_anchor": "video3-1v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1v"
         },
         {
           "alias": false,
@@ -571,11 +568,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=PgzNib37g0M&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiGWgJ2vP",
-          "_anchor": "video3-1o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1o"
         },
         {
           "alias": false,
@@ -603,11 +600,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=tJREA2wa9VI&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHkidMvt",
-          "_anchor": "video3-1p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1p"
         },
         {
           "alias": false,
@@ -635,11 +632,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=igikBwKImWA&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHl2CNhU",
-          "_anchor": "video3-1r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1r"
         },
         {
           "alias": false,
@@ -667,11 +664,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=c3vcU4hoN3E&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHlsaSXC",
-          "_anchor": "video3-1s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1s"
         },
         {
           "alias": false,
@@ -699,11 +696,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=H2NPWuX93c8&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHlQPDKj",
-          "_anchor": "video3-1t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1t"
         },
         {
           "alias": false,
@@ -731,11 +728,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=hf8uvXNa2M8&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHme9bGt",
-          "_anchor": "video3-1u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1u"
         },
         {
           "alias": false,
@@ -763,11 +760,11 @@
           "_name": "video3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"80\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://www.youtube.com/watch?v=VdW2mwz5LPE&loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rZiHkFI2jQ",
-          "_anchor": "video3-1q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "video3-1q"
         },
         {
           "alias": false,
@@ -2904,7 +2901,7 @@
       "settings": {
         "meta_descr": "DEF CON Red Team Village Call for Papers (CFP)",
         "title": "DEF CON Red Team Village Call for Papers (CFP)",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -3342,7 +3339,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Call for Papers (CFP)</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">It’s the 28th year of DEFCON and we are proud to announce anothere year of the Red Team Offense Village! We have a lot of exciting things planned, including a dedicated speaker track focused on Red Team / Offense topics. With that said, this is the call for papers for that speaker track. If you have a talk that is appropriate for our village, please submit ASAP as slots are limited and filling quickly.<div><br></div><div>IF YOU WANT TO SUBMIT A PROPOSAL TO PRESENT, PLEASE NOTE THE FOLLOWING:</div><div>The DEF CON Red Team Offense Village <u>does not accept product or vendor related pitches</u>.</div><div>If your briefing is a thinly-veiled advertisement for a new product or service your company is offering, please do not apply. There are plenty of \"vendor\" conferences that will accept that nonsense, please submit to one of those, don’t waste our time or yours. If your briefing is accepted and you perform a bait and switch, you will be banned for life.</div><div>SUBMISSION REQUIREMENTS</div><div>All presentations must be submitted by the original authors.</div><div><br></div><div>We currently only accept submissions by original authors of the presentations. PR firms, speaking relation firms, and all other parties who are not direct authors of submitted presentations ARE NOT ALLOWED to submit materials on behalf of speakers or presenters. If it is obvious the author did not submit the briefing themselves, you will be banned for life.</div><div><br></div><div>We require direct contact with presenters to expedite questions from the reviewers and to fulfill Speaker Obligations.&nbsp;</div><div><br></div><div>How long should the talk be?</div><div>The following time slots are available and it is expected that the presenters will budget time for audience participation and Q&amp;A within this time frame:</div><div><br></div><div>- Normal presentations: 45-60 minutes</div><div>- Short presentations: 15-30 minutes</div><div><br></div><div>Selection Criteria</div><div>Presentations will be reviewed through a voting process by the Red Team Offense Village CFP Review Board. Submissions are rated on a one to ten scale by each of the reviewers in four areas, and the resulting scores are added up. Those submissions with the highest scores are considered first. The majority of finalized briefings will require a live video interview, via WebEx prior to any final acceptance. In the case of topic overlap a lesser scoring submission may be selected to keep variety and diversity in the program. As the complexity and specialization of submissions grow more reviewers are added to the process.&nbsp;</div><div><br></div><div>If your briefing does not meet all four selection criteria listed below it will be automatically rejected:</div><div><br></div><div>- Technical Depth</div><div>- Technical Breath</div><div>- Technical Accuracy</div><div><br></div><div>People submitting a briefing proposal will receive an email notification that the Red Team Offense Village review team has received the proposal generally within 30 days of receipt of the submission. Once the review and selection process has been completed you will receive an email confirmation of acceptance or rejection.</div><div><br></div><div>All presentations must be vendor neutral (no sales pitches for services or products are permitted). All sources of information, software, etc. should be properly cited.</div><div><br></div><div>What kind of talks are we looking for?</div><div>- Talks related to the Red Team Methodology.</div><div>- New trends and lessons learned about Red Teaming.&nbsp;</div><div>- Briefings that are highly technical, reveal new ways Red Teams can operate.</div><div>- Submissions with detailed bibliographies acknowledging prior work in the space, distinguishing or highlighting how your presentation is different. We believe this is important to help move the security community to a more professional, inclusive and respected position.&nbsp;</div><div>- Since security is a technical field, hands-on demonstrations that visually explain the theory will assist greatly for the audience to grasp and learn the content. However, there are also times when the subject is more abstract and visual demos might not be best suited to explain the topic, consider the breath of your briefing prior to submission.</div><div>OTHER IMPORTANT NOTES</div><div>By speaking at the DEF CON Red Team Offense Village you are granting us permission to distribute, disseminate, advertise, modify, market, include in other marketing materials and to show your presentation including but not limited to our website, Twitter, Facebook, Youtube, other media, printed and/or electronic ads, fliers, mailers, etc.</div><div><br></div><div>Logistics: This will be a virtual event during DEF CON 28 SAFE MODE (August 6-9, 2020).&nbsp;</div><div><br></div><div>THANK YOU!</div><div><br></div><div>Red Team Offense Village</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"https://forms.gle/5dpnQL2uzGJb69he8\" data-app-placeholder=\"Type Text\" target=\"_blank\">SUBMIT YOUR TALK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Call for Papers (CFP)</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">It’s the 28th year of DEFCON and we are proud to announce anothere year of the Red Team Offense Village! We have a lot of exciting things planned, including a dedicated speaker track focused on Red Team / Offense topics. With that said, this is the call for papers for that speaker track. If you have a talk that is appropriate for our village, please submit ASAP as slots are limited and filling quickly.<div><br></div><div>IF YOU WANT TO SUBMIT A PROPOSAL TO PRESENT, PLEASE NOTE THE FOLLOWING:</div><div>The DEF CON Red Team Offense Village <u>does not accept product or vendor related pitches</u>.</div><div>If your briefing is a thinly-veiled advertisement for a new product or service your company is offering, please do not apply. There are plenty of \"vendor\" conferences that will accept that nonsense, please submit to one of those, don’t waste our time or yours. If your briefing is accepted and you perform a bait and switch, you will be banned for life.</div><div>SUBMISSION REQUIREMENTS</div><div>All presentations must be submitted by the original authors.</div><div><br></div><div>We currently only accept submissions by original authors of the presentations. PR firms, speaking relation firms, and all other parties who are not direct authors of submitted presentations ARE NOT ALLOWED to submit materials on behalf of speakers or presenters. If it is obvious the author did not submit the briefing themselves, you will be banned for life.</div><div><br></div><div>We require direct contact with presenters to expedite questions from the reviewers and to fulfill Speaker Obligations.&nbsp;</div><div><br></div><div>How long should the talk be?</div><div>The following time slots are available and it is expected that the presenters will budget time for audience participation and Q&amp;A within this time frame:</div><div><br></div><div>- Normal presentations: 45-60 minutes</div><div>- Short presentations: 15-30 minutes</div><div><br></div><div>Selection Criteria</div><div>Presentations will be reviewed through a voting process by the Red Team Offense Village CFP Review Board. Submissions are rated on a one to ten scale by each of the reviewers in four areas, and the resulting scores are added up. Those submissions with the highest scores are considered first. The majority of finalized briefings will require a live video interview, via WebEx prior to any final acceptance. In the case of topic overlap a lesser scoring submission may be selected to keep variety and diversity in the program. As the complexity and specialization of submissions grow more reviewers are added to the process.&nbsp;</div><div><br></div><div>If your briefing does not meet all four selection criteria listed below it will be automatically rejected:</div><div><br></div><div>- Technical Depth</div><div>- Technical Breath</div><div>- Technical Accuracy</div><div><br></div><div>People submitting a briefing proposal will receive an email notification that the Red Team Offense Village review team has received the proposal generally within 30 days of receipt of the submission. Once the review and selection process has been completed you will receive an email confirmation of acceptance or rejection.</div><div><br></div><div>All presentations must be vendor neutral (no sales pitches for services or products are permitted). All sources of information, software, etc. should be properly cited.</div><div><br></div><div>What kind of talks are we looking for?</div><div>- Talks related to the Red Team Methodology.</div><div>- New trends and lessons learned about Red Teaming.&nbsp;</div><div>- Briefings that are highly technical, reveal new ways Red Teams can operate.</div><div>- Submissions with detailed bibliographies acknowledging prior work in the space, distinguishing or highlighting how your presentation is different. We believe this is important to help move the security community to a more professional, inclusive and respected position.&nbsp;</div><div>- Since security is a technical field, hands-on demonstrations that visually explain the theory will assist greatly for the audience to grasp and learn the content. However, there are also times when the subject is more abstract and visual demos might not be best suited to explain the topic, consider the breath of your briefing prior to submission.</div><div>OTHER IMPORTANT NOTES</div><div>By speaking at the DEF CON Red Team Offense Village you are granting us permission to distribute, disseminate, advertise, modify, market, include in other marketing materials and to show your presentation including but not limited to our website, Twitter, Facebook, Youtube, other media, printed and/or electronic ads, fliers, mailers, etc.</div><div><br></div><div>Logistics: The event takes place in the New Caesars Forum, Harrahs, Linq &amp; Flamingo, in Las Vegas, USA during DEF CON, please arrive early to the site. We will not be paying for travel, hotel or other expenses.  You will receive promotion of your talk on social media, websites, and other forms of media coverage.&nbsp;</div><div><br></div><div>THANK YOU!</div><div><br></div><div>Red Team Offense Village</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"https://forms.gle/5dpnQL2uzGJb69he8\" data-app-placeholder=\"Type Text\" target=\"_blank\">SUBMIT YOUR TALK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rZ6UpTZH9E",
           "_anchor": "content4-1i",
           "_protectedParams": [],
@@ -4067,8 +4064,7 @@
       "settings": {
         "meta_descr": "Red Team Offense Village - an official DEFCON village. Cybersecurity, Red Teamming, Ethical Hacking, Exploits, Attacks, Hackers, Hacking, adversarial techniques and more.",
         "title": "DEF CON  Red Team Village",
-        "order": 1,
-        "meta_image": "@PROJECT_PATH@/assets/images/rtov-sword-128x128.png"
+        "order": 7
       },
       "components": [
         {
