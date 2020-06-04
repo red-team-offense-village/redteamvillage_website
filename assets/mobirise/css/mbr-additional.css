@@ -3556,6 +3556,9 @@ section.lazy-placeholder:after {
 .cid-rZ6UpTZH9E .mbr-section-subtitle {
   color: #767676;
 }
+.cid-rZ6UpTZH9E .mbr-section-subtitle DIV {
+  text-align: left;
+}
 .cid-rWPrrg62xB {
   padding-top: 30px;
   padding-bottom: 30px;
