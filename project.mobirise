@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Offense Village",
-    "currentPage": "music.html",
+    "currentPage": "volunteers.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5036,7 +5036,7 @@
     },
     "music.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "Call for Music - DEF CON Red Team Village",
         "title": "Music - Call for Music - DEF CON Red Team Village",
         "order": 1
       },
@@ -5584,7 +5584,7 @@
     },
     "volunteers.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "Call for Volunteers - DEF CON Red Team Village",
         "title": "Volunteers - DEF CON Red Team Village",
         "order": 2
       },
