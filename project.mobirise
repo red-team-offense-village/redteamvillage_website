@@ -3336,7 +3336,8 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-section-subtitle": {
-              "color": "#767676"
+              "color": "#767676",
+              "text-align": "center"
             },
             ".mbr-section-subtitle DIV": {
               "text-align": "left"
