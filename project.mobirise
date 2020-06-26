@@ -1,8 +1,13 @@
 {
   "settings": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "Cyber June'Gle",
     "currentPage": "sponsors.html",
+=======
+    "name": "Red Team Offense Village",
+    "currentPage": "index.html",
+>>>>>>> parent of 9de3ecc... updating site
 =======
     "name": "Red Team Offense Village",
     "currentPage": "index.html",
