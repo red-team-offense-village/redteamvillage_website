@@ -4875,20 +4875,6 @@ body {
 .cid-rWPrrg62xB .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-s38g6GvDZC {
-  background: #4b0000;
-  padding-top: 120px;
-  padding-bottom: 60px;
-  background: linear-gradient(0deg, #4b0000, #000000);
-}
-.cid-s38g6GvDZC .video-block {
-  margin: auto;
-}
-@media (max-width: 768px) {
-  .cid-s38g6GvDZC .video-block {
-    width: 100% !important;
-  }
-}
 .cid-rZiGfyQPAK .navbar {
   padding: .5rem 0;
   background: #333333;
