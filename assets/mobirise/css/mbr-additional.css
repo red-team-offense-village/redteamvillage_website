@@ -8127,3 +8127,96 @@ section.lazy-placeholder:after {
 .cid-s4muY6RJ1T .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-s5Icg0INXu {
+  background-image: url("../../../assets/images/screen-shot-2020-07-24-at-9.36.27-pm.png");
+}
+.cid-s5Icg0INXu P {
+  color: #767676;
+}
+.cid-s5Icg0INXu H1 {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-s5Icg0INXu .mbr-text,
+.cid-s5Icg0INXu .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-s4muY6RJ1T {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-s4muY6RJ1T .row-links {
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-s4muY6RJ1T .social-row {
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-s4muY6RJ1T .media-container-row {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.cid-s4muY6RJ1T .media-container-row .foot-menu {
+  list-style: none;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
+}
+.cid-s4muY6RJ1T .media-container-row .foot-menu li {
+  padding: 0 1rem 1rem 1rem;
+}
+.cid-s4muY6RJ1T .media-container-row .foot-menu li p {
+  margin: 0;
+}
+.cid-s4muY6RJ1T .media-container-row .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.cid-s4muY6RJ1T .media-container-row .social-list .mbr-iconfont-social {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.cid-s4muY6RJ1T .media-container-row .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-s4muY6RJ1T .media-container-row .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-s4muY6RJ1T .media-container-row .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-s4muY6RJ1T .media-container-row .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+.cid-s4muY6RJ1T .media-container-row .row-copirayt {
+  word-break: break-word;
+  width: 100%;
+}
+.cid-s4muY6RJ1T .media-container-row .row-copirayt p {
+  width: 100%;
+}
