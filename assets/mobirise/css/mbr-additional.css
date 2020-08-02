@@ -14165,9 +14165,12 @@ section.lazy-placeholder:after {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
+.cid-s6t30e0Kr0 .card-title {
+  text-align: center;
+}
 .cid-s6t30XmB4X {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 135px;
   background-color: #efefef;
 }
 .cid-s6t30XmB4X .card-box {
@@ -14204,6 +14207,9 @@ section.lazy-placeholder:after {
 .cid-s6t30XmB4X .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
+}
+.cid-s6t30XmB4X .card-title {
+  text-align: center;
 }
 .cid-s4muY6RJ1T {
   padding-top: 30px;
