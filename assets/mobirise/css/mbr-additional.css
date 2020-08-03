@@ -1168,46 +1168,10 @@ section.lazy-placeholder:after {
 .cid-s4mC1xBQeW {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #b2ccd2;
+  background-color: #deecef;
 }
 .cid-s4mC1xBQeW .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-s4mC2x9EgH {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-s4mC2x9EgH .counter-container {
-  color: #767676;
-}
-.cid-s4mC2x9EgH .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-s4mC2x9EgH .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-s4mC2x9EgH .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-s4mC2x9EgH .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #149dcc;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  color: #000000;
 }
 .cid-s4mCahSqbR {
   padding-top: 90px;
