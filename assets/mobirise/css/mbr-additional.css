@@ -11648,10 +11648,23 @@ section.lazy-placeholder:after {
 }
 .cid-s6sOq7rLH9 {
   padding-top: 135px;
-  padding-bottom: 135px;
+  padding-bottom: 15px;
   background-color: #efefef;
 }
 .cid-s6sOq7rLH9 P {
+  color: #767676;
+}
+.cid-s6sOq7rLH9 .mbr-text,
+.cid-s6sOq7rLH9 .mbr-section-btn {
+  text-align: center;
+}
+.cid-s6CWsDG1Uk {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s6CWsDG1Uk .mbr-text,
+.cid-s6CWsDG1Uk blockquote {
   color: #767676;
 }
 .cid-s4muY6RJ1T {
