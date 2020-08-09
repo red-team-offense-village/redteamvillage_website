@@ -1118,7 +1118,22 @@ section.lazy-placeholder:after {
 .cid-s4muQi2szC .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-s7bZpTi3PY {
+  background: #232323;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.cid-s7bZpTi3PY .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-s7bZpTi3PY .video-block {
+    width: 100% !important;
+  }
+}
 .cid-s4mzFv20Sd {
+  padding-top: 15px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/screen-shot-2020-07-11-at-2.43.33-pm.png");
 }
 .cid-s4mzFv20Sd .icons-media-container {
