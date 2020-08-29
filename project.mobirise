@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Village",
-    "currentPage": "index.html",
+    "currentPage": "cfp.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -31,9 +31,16 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "uniqCompNum": 15,
-    "versionPublish": "4.12.3"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -490,11 +497,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/screen-shot-2020-08-27-at-8.42.57-pm.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Red Team Village</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Next Event: <a href=\"https://grayhat.co/\" target=\"_blank\">GRAYHAT</a></h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Latest News! : The Red Team Village will be at <a href=\"https://grayhat.co/\" target=\"_blank\">GrayHat</a> in October and at <a href=\"https://yetanothersec.com/yascon2020/\" target=\"_blank\">YASCON</a> in November. <br>The Red Team Village will have its own track of presentations during the GrayHat event! The<a href=\"cfp.html\"> Call for Papers</a> for the Red Team Village track @ GrayHat is <a href=\"cfp.html\">now open!</a></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"cfp.html\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>CALL FOR PAPERS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "s8UPbamlFA",
+          "_anchor": "header1-2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-2"
+          "_params": {}
         },
         {
           "alias": false,
@@ -506,11 +513,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"past-events.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>PAST EVENTS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://discord.gg/redteamvillage\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>JOIN OUR DISCORD SERVER</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8UPQCewOr",
+          "_anchor": "content8-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-3"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1036,11 +1043,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s8UP0PtG7E",
+          "_anchor": "menu1-4",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-4"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1053,13 +1060,13 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Call for Papers for the Red Team Village Track During GrayHat</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">GrayHat is a huge virtual conference on October 29th-31st, 2020<div>If you have a talk that is appropriate for our village, please submit ASAP as slots are limited and filling quickly.<div><br></div><div>IF YOU WANT TO SUBMIT A PROPOSAL TO PRESENT, PLEASE NOTE THE FOLLOWING:</div><div><br></div><div>The DEF CON Red Team Offense Village does not accept product or vendor related pitches.</div><div><br></div><div>If your briefing is a thinly-veiled advertisement for a new product or service your company is offering, please do not apply. There are plenty of \"vendor\" conferences that will accept that nonsense, please submit to one of those, don’t waste our time or yours. If your briefing is accepted and you perform a bait and switch, you will be banned for life.</div><div><br></div><div><br></div><div>SUBMISSION REQUIREMENTS</div><div>All presentations must be submitted by the original authors.</div><div><br></div><div>We currently only accept submissions by original authors of the presentations. PR firms, speaking relation firms, and all other parties who are not direct authors of submitted presentations ARE NOT ALLOWED to submit materials on behalf of speakers or presenters. If it is obvious the author did not submit the briefing themselves, you will be banned for life.</div><div><br></div><div>We require direct contact with presenters to expedite questions from the reviewers and to fulfill Speaker Obligations.&nbsp;</div><div><br></div><div>How long should the talk be?</div><div>45-60 minutes</div><div><br></div><div>Selection Criteria</div><div>Presentations will be reviewed through a voting process by the Red Team Offense Village CFP Review Board. Submissions are rated on a one to ten scale by each of the reviewers in four areas, and the resulting scores are added up. Those submissions with the highest scores are considered first. The majority of finalized briefings will require a live video interview, via WebEx prior to any final acceptance. In the case of topic overlap a lesser scoring submission may be selected to keep variety and diversity in the program. As the complexity and specialization of submissions grow more reviewers are added to the process.&nbsp;</div><div><br></div><div>If your briefing does not meet all four selection criteria listed below it will be automatically rejected:</div><div><br></div><div>- Technical Depth</div><div>- Technical Breath</div><div>- Technical Accuracy</div><div>- Must not be a product or service pitch!</div><div><br></div><div>People submitting a briefing proposal will receive an email notification that the Red Team Offense Village review team has received the proposal generally within 30 days of receipt of the submission. Once the review and selection process has been completed you will receive an email confirmation of acceptance or rejection.</div><div><br></div><div>All presentations must be vendor neutral (no sales pitches for services or products are permitted). All sources of information, software, etc. should be properly cited.</div><div><br></div><div>What kind of talks are we looking for?</div><div>- Talks related to the Red Team Methodology.</div><div>- New trends and lessons learned about Red Teaming.&nbsp;</div><div>- Briefings that are highly technical, reveal new ways Red Teams can operate.</div><div>- Submissions with detailed bibliographies acknowledging prior work in the space, distinguishing or highlighting how your presentation is different. We believe this is important to help move the security community to a more professional, inclusive and respected position.&nbsp;</div><div>- Since security is a technical field, hands-on demonstrations that visually explain the theory will assist greatly for the audience to grasp and learn the content. However, there are also times when the subject is more abstract and visual demos might not be best suited to explain the topic, consider the breath of your briefing prior to submission.</div><div><br></div><div><br></div><div>OTHER IMPORTANT NOTES</div><div>By speaking at the DEF CON Red Team Offense Village you are granting us permission to distribute, disseminate, advertise, modify, market, include in other marketing materials and to show your presentation including but not limited to our website, Twitter, Twitch, Facebook, Youtube, other media, printed and/or electronic ads, fliers, mailers, etc.</div><div><br></div><div>Logistics:</div><div>This will be a virtual event during DEF CON 28 SAFE MODE (August 6-9, 2020).&nbsp;</div><div><br></div><div>THANK YOU!</div><div><br></div><div>Red Team Offense Village</div></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://forms.gle/aEUpoyfiJjQWgPEB8\" data-app-placeholder=\"Type Text\" target=\"_blank\">SUBMIT YOUR TALK NOW</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Call for Papers for the Red Team Village Track During GrayHat</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">GrayHat is a huge virtual conference on October 29th-31st, 2020<div>If you have a talk that is appropriate for our village, please submit ASAP as slots are limited and filling quickly.<div><br></div><div>IF YOU WANT TO SUBMIT A PROPOSAL TO PRESENT, PLEASE NOTE THE FOLLOWING:</div><div><br></div><div>The Red Team Village does not accept product or vendor related pitches.</div><div><br></div><div>If your briefing is a thinly-veiled advertisement for a new product or service your company is offering, please do not apply. There are plenty of \"vendor\" conferences that will accept that nonsense, please submit to one of those, don’t waste our time or yours. If your briefing is accepted and you perform a bait and switch, you will be banned for life.</div><div><br></div><div><br></div><div>SUBMISSION REQUIREMENTS</div><div>All presentations must be submitted by the original authors.</div><div><br></div><div>We currently only accept submissions by original authors of the presentations. PR firms, speaking relation firms, and all other parties who are not direct authors of submitted presentations ARE NOT ALLOWED to submit materials on behalf of speakers or presenters. If it is obvious the author did not submit the briefing themselves, you will be banned for life.</div><div><br></div><div>We require direct contact with presenters to expedite questions from the reviewers and to fulfill Speaker Obligations.&nbsp;</div><div><br></div><div>How long should the talk be?</div><div>45-60 minutes</div><div><br></div><div>Selection Criteria</div><div>Presentations will be reviewed through a voting process by the Red Team Village CFP Review Board. Submissions are rated on a one to ten scale by each of the reviewers in four areas, and the resulting scores are added up. Those submissions with the highest scores are considered first. The majority of finalized briefings will require a live video interview, via WebEx prior to any final acceptance. In the case of topic overlap a lesser scoring submission may be selected to keep variety and diversity in the program. As the complexity and specialization of submissions grow more reviewers are added to the process.&nbsp;</div><div><br></div><div>If your briefing does not meet all four selection criteria listed below it will be automatically rejected:</div><div><br></div><div>- Technical Depth</div><div>- Technical Breath</div><div>- Technical Accuracy</div><div>- Must not be a product or service pitch!</div><div><br></div><div>People submitting a briefing proposal will receive an email notification that the Red Team Village review team has received the proposal generally within 30 days of receipt of the submission. Once the review and selection process has been completed you will receive an email confirmation of acceptance or rejection.</div><div><br></div><div>All presentations must be vendor neutral (no sales pitches for services or products are permitted). All sources of information, software, etc. should be properly cited.</div><div><br></div><div>What kind of talks are we looking for?</div><div>- Talks related to the Red Team Methodology.</div><div>- New trends and lessons learned about Red Teaming.&nbsp;</div><div>- Briefings that are highly technical, reveal new ways Red Teams can operate.</div><div>- Submissions with detailed bibliographies acknowledging prior work in the space, distinguishing or highlighting how your presentation is different. We believe this is important to help move the security community to a more professional, inclusive and respected position.&nbsp;</div><div>- Since security is a technical field, hands-on demonstrations that visually explain the theory will assist greatly for the audience to grasp and learn the content. However, there are also times when the subject is more abstract and visual demos might not be best suited to explain the topic, consider the breath of your briefing prior to submission.</div><div><br></div><div><br></div><div>OTHER IMPORTANT NOTES</div><div>By speaking at the Red Team Village you are granting us permission to distribute, disseminate, advertise, modify, market, include in other marketing materials and to show your presentation including but not limited to our website, Twitter, Twitch, Facebook, Youtube, other media, printed and/or electronic ads, fliers, mailers, etc.</div><div><br></div><div>Logistics:</div><div>Virtual Cybersecurity Conference (your briefing [if selected]):</div><div>October 29th-31st, 2020</div><div><br></div><div>Pre-Con Live Online Trainings:</div><div>October 25th-28th, 2020</div><div><br></div><div>THANK YOU!</div><div><br></div><div>The Red Team Village Staff</div></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://forms.gle/aEUpoyfiJjQWgPEB8\" data-app-placeholder=\"Type Text\" target=\"_blank\">SUBMIT YOUR TALK NOW</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8UTcML6Oe",
+          "_anchor": "content4-6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-6"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1149,11 +1156,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s8UP1ImVio",
+          "_anchor": "footer7-5",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer7-5"
+          "_params": {}
         }
       ]
     },
@@ -1585,11 +1592,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s8UP0PtG7E",
+          "_anchor": "menu1-b",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-b"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1604,11 +1611,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Red Team Village Past Events</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Access the presentations and training of Red Team Village past events below:</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8UVkd9IOe",
+          "_anchor": "content4-d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-d"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1620,11 +1627,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"https://www.youtube.com/playlist?list=PLruly0ngXhPHlQ0ebMbB3XuKVJPq3B0qS\" data-app-placeholder=\"Type Text\" target=\"_blank\">DEF CON SAFEmode</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://www.youtube.com/playlist?list=PLruly0ngXhPGvyl-gOp4d_TvIiedloX1l\" data-app-placeholder=\"Type Text\" target=\"_blank\">JUNEGLE 2020</a> <a class=\"btn btn-black-outline\" href=\"https://www.youtube.com/playlist?list=PLruly0ngXhPHDJeUVxubE6AfKzjxsEZhY\" data-app-placeholder=\"Type Text\" target=\"_blank\">MAYHEM</a> <a class=\"btn btn-black-outline\" href=\"https://www.youtube.com/playlist?list=PLruly0ngXhPEwfIlXJoO01FkMRAEtSxsL\" data-app-placeholder=\"Type Text\" target=\"_blank\">DEF CON 27</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8UVlZeAGs",
+          "_anchor": "content8-e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-e"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1714,11 +1721,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s8UP1ImVio",
+          "_anchor": "footer7-c",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer7-c"
+          "_params": {}
         }
       ]
     }
