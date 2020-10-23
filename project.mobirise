@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Village",
-    "currentPage": "bugbounty.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,7 +41,7 @@
       }
     ],
     "uniqCompNum": 25,
-    "versionPublish": "5.1.4",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true
   },
@@ -537,7 +537,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"https://redteamvillage.io/schedule\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>SCHEDULE</a> <a class=\"btn btn-secondary-outline\" href=\"ctf.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>CTF</a> <a class=\"btn btn-secondary-outline\" href=\"bugbounty.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-target mbr-iconfont mbr-iconfont-btn\"></span>BUG BOUNTY SUMMIT&nbsp;</a> <a class=\"btn btn-primary-outline\" href=\"past-events.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>PAST EVENTS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://discord.gg/redteamvillage\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>JOIN OUR DISCORD SERVER</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"https://redteamvillage.io/schedule\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>SCHEDULE</a> <a class=\"btn btn-secondary-outline\" href=\"ctf.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\"></span>CTF</a> <a class=\"btn btn-secondary-outline\" href=\"bugbounty.html\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-bug-protect mbr-iconfont mbr-iconfont-btn\"></span>BUG BOUNTY SUMMIT&nbsp;</a> <a class=\"btn btn-secondary-outline\" href=\"https://grayhat.co/contest/cyberwraith/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"icon54-v1-game-console1 mbr-iconfont mbr-iconfont-btn\"></span>CYBER WRAITH</a> <a class=\"btn btn-secondary-outline\" href=\"https://grayhat.co/contest/cyber-weapon-range/\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-target mbr-iconfont mbr-iconfont-btn\"></span>CYBER WEAPON RANGE</a> <a class=\"btn btn-primary-outline\" href=\"past-events.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-video mbr-iconfont mbr-iconfont-btn\"></span>PAST EVENTS</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://discord.gg/redteamvillage\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>JOIN OUR DISCORD SERVER</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s8UPQCewOr",
           "_anchor": "content8-3",
           "_protectedParams": [],
