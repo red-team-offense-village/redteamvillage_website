@@ -4165,6 +4165,30 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-sePTuJoekb {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #000000;
+}
+.cid-sePTuJoekb .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-sePTuJoekb H2 {
+  color: #ffffff;
+}
+.cid-sePTvfMjnO {
+  background: #000000;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.cid-sePTvfMjnO .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-sePTvfMjnO .video-block {
+    width: 100% !important;
+  }
+}
 .cid-sePhvSwq3N {
   padding-top: 60px;
   padding-bottom: 15px;
