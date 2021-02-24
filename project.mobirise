@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 38,
+    "uniqCompNum": 40,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true
@@ -486,116 +486,78 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @color2, @bgColor)"
             },
-            "& when (@reverseContent)": {
-              ".row": {
-                "-webkit-box-orient": "horizontal",
-                "-webkit-box-direction": "reverse",
-                "flex-direction": "row-reverse",
-                ".text": {
-                  "margin-right": "5rem",
-                  "margin-left": "0"
-                }
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
               }
             },
-            "& when (@fullWidth)": {
-              ".container-fluid": {
-                "max-width": "100% !important",
-                "padding-left": "0 !important",
-                "padding-right": "0 !important"
-              }
-            },
-            ".container-fluid": {
-              "padding-left": "3rem",
-              "padding-right": "3rem"
-            },
-            ".right": {
-              "background-color": "@cardBgColor"
-            },
-            ".link": {
-              "line-height": "1"
-            },
-            "@media (max-width: 992px)": {
-              ".wrap, .mbr-section-title": {
-                "text-align": "center !important"
-              },
-              ".text-row": {
-                "width": "100%"
-              }
-            },
-            "a": {
-              "line-height": "1",
-              "text-decoration": "none",
-              "cursor": "pointer",
+            "figcaption": {
               "position": "relative",
-              "overflow": "hidden",
-              "&:not(:first-child)": {
-                "margin-left": "25px"
-              },
-              "&:after": {
+              "div": {
                 "position": "absolute",
-                "margin-top": "7px",
-                "background-color": "currentColor",
-                "display": "block",
-                "content": "\"\"",
-                "height": "2px",
+                "bottom": "0",
                 "width": "100%"
-              },
-              "&::before": {
-                "position": "absolute",
-                "margin-top": "5px",
-                "background-color": "currentColor",
-                "display": "block",
-                "content": "\"\"",
-                "height": "2px",
-                "width": "0%",
-                "bottom": "7px"
-              },
-              "&:hover:after, &:focus:after": {
-                "-webkit-animation-duration": "1s",
-                "animation-duration": "1s",
-                "-webkit-animation-name": "slidein",
-                "animation-name": "slidein"
-              },
-              "&:hover:before, &:focus:before": {
-                "-webkit-animation-duration": "0.5s",
-                "animation-duration": "0.5s",
-                "-webkit-animation-delay": "0.5s",
-                "animation-delay": "0.5s",
-                "-webkit-animation-name": "slideout",
-                "animation-name": "slideout"
               }
             },
-            "a.text-white:hover, a.text-white:focus": {
-              "color": "#ffffff !important"
-            },
-            ".mbr-section-btn": {
-              "margin-left": "0",
-              "margin-right": "0"
-            },
-            "img": {
-              "height": "100%",
-              "width": "100%",
-              "-o-object-fit": "cover",
-              "object-fit": "cover"
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
             }
           },
-          "_name": "header01",
-          "_sourceTheme": "branchm4",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <hr>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Card Background\" name=\"cardBgColor\" value=\"#000000\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#111a20\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#121525\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-5 p-0\">\n                <div class=\"wrap h-100\">\n                    <img src=\"@PROJECT_PATH@/assets/images/screen-shot-2021-01-27-at-5.34.18-pm-1553x852.png\" alt=\"Red Team Village and Hacking is Not a Crime\" class=\"mw-100 h-100\">\n                </div>\n            </div>\n            <div class=\"col-lg-7 col-md-12 right d-flex\">\n                <div class=\"col-md-8 text m-auto\">\n                    <div class=\"wrap pt-5 pb-5\">\n                        <h1 class=\"mbr-section-title mbr-white align-left mbr-regular mbr-fonts-style mb-5\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-fonts-style\">News About The Next Upcoming Event!</h1>\n                        <div class=\"link-wrap\" mbr-if=\"showSubTitle\">\n                            <div class=\"mbr-section-btn mbr-fonts-style\" mbr-buttons=\"true\" mbr-theme-style=\"display-5\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-fonts-style\"><a class=\"mbr-section-subtitle text-white mbr-light pb-3 mbr-fonts-style d-inline-block text-primary\" data-app-selector=\".mbr-fonts-style\" data-app-placeholder=\"Type Text\" href=\"https://twitter.com/RedTeamVillage_\" target=\"_blank\"></a> <a class=\"mbr-section-subtitle text-white mbr-light pb-3 mbr-fonts-style d-inline-block text-primary\" data-app-selector=\".mbr-fonts-style\" data-app-placeholder=\"Type Text\" href=\"https://www.hackingisnotacrime.org/\" target=\"_blank\">The Red Team Village is a partner of Hacking is NOT a Crime. We are very excited to announce a joint event on March 27, 2021. This will be a FREE virtual conference that will have a great lineup of speakers and other activities.<br><br></a> <a class=\"mbr-section-subtitle text-white mbr-light pb-3 mbr-fonts-style d-inline-block text-primary\" data-app-selector=\".mbr-fonts-style\" data-app-placeholder=\"Type Text\" href=\"labs.html\" target=\"_blank\">Additional details and the schedule will be announced very soon. Keep up with updates by following @hacknotcrime and @RedTeamVillage_ in Twitter.<br>&nbsp;<br><br></a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sjLWvxOsOK",
-          "_anchor": "header01-q",
+          "_name": "image3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"7\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/red-team-village-upcoming-events-spring-2021-2137x1195.png\" width=\"1400\" alt=\"red-team-village-upcoming-events-spring-2021\">\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_cid": "spTI5p991m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "image3-12"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Additional details and the schedules will be announced very soon. Keep up with updates by following <a href=\"https://twitter.com/redteamvillage_\" class=\"text-primary\" target=\"_blank\">@RedTeamVillage_</a> in Twitter.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "spTIuKTubk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-13"
         },
         {
           "alias": false,
