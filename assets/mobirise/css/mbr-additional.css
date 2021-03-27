@@ -684,25 +684,17 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-srEOsxpOsA {
-  background: #350004;
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-ssSs1b1Wm5 {
+  background: #001015;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: linear-gradient(0deg, #001015, #350004);
 }
-.cid-srEOsxpOsA .image-block {
+.cid-ssSs1b1Wm5 .video-block {
   margin: auto;
 }
-.cid-srEOsxpOsA figcaption {
-  position: relative;
-}
-.cid-srEOsxpOsA figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 @media (max-width: 768px) {
-  .cid-srEOsxpOsA .image-block {
+  .cid-ssSs1b1Wm5 .video-block {
     width: 100% !important;
   }
 }
