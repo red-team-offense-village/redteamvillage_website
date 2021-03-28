@@ -684,17 +684,25 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-ssSs1b1Wm5 {
-  background: #001015;
-  padding-top: 105px;
+.cid-ssZBD6jif7 {
+  background: #000000;
+  padding-top: 120px;
   padding-bottom: 60px;
-  background: linear-gradient(0deg, #001015, #350004);
+  background: linear-gradient(0deg, #350004, #000000);
 }
-.cid-ssSs1b1Wm5 .video-block {
+.cid-ssZBD6jif7 .image-block {
   margin: auto;
 }
+.cid-ssZBD6jif7 figcaption {
+  position: relative;
+}
+.cid-ssZBD6jif7 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 @media (max-width: 768px) {
-  .cid-ssSs1b1Wm5 .video-block {
+  .cid-ssZBD6jif7 .image-block {
     width: 100% !important;
   }
 }
