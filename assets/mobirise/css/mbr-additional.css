@@ -1119,27 +1119,6 @@ section.lazy-placeholder:after {
   padding-bottom: 105px;
   background-color: #ffffff;
 }
-.cid-spTI5p991m {
-  background: #000000;
-  padding-top: 105px;
-  padding-bottom: 0px;
-}
-.cid-spTI5p991m .image-block {
-  margin: auto;
-}
-.cid-spTI5p991m figcaption {
-  position: relative;
-}
-.cid-spTI5p991m figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-spTI5p991m .image-block {
-    width: 100% !important;
-  }
-}
 .cid-s8UP1ImVio {
   padding-top: 30px;
   padding-bottom: 30px;
