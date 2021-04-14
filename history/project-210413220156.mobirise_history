@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Village",
-    "currentPage": "rsa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -4894,11 +4894,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#350004\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">To participate in the Red Team Village activities during the RSA Conference 2021 you will be required to <a href=\"https://www.rsaconference.com/usa/passes-and-rates\" class=\"text-success\" target=\"_blank\">register</a> and purchase a ticket from the RSA Conference.</div>\n        </div>\n    </div>\n</section>",
           "_cid": "stnGiuvMcM",
-          "_anchor": "content1-1u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content1-1u"
         },
         {
           "alias": false,
@@ -4909,13 +4909,13 @@
           },
           "_name": "content8",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.rsaconference.com/usa/passes-and-rates?utm_source=sbox-rsaredvil&utm_medium=referral&utm_campaign=standard-textad-us2021\" data-app-placeholder=\"Type Text\" target=\"_blank\">REGISTER NOW</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://www.rsaconference.com/usa/the-experience/innovation-programs/sandbox?utm_source=sbox-rsaredvil&utm_medium=referral&utm_campaign=standard-textad-us2021\" data-app-placeholder=\"Type Text\" target=\"_blank\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.rsaconference.com/usa/passes-and-rates\" data-app-placeholder=\"Type Text\" target=\"_blank\">REGISTER NOW</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://www.rsaconference.com/usa/the-experience/innovation-programs/sandbox\" data-app-placeholder=\"Type Text\" target=\"_blank\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "stnGlvw6Q5",
-          "_anchor": "content8-1v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content8-1v"
         },
         {
           "alias": false,
@@ -4952,11 +4952,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b style=\"font-size: 1.5rem;\">Monday, May 17th</b><br></p><p><span style=\"font-size: 1.5rem;\">0950-1300   Red Team Village Guided 101 Capture the Flag (CTF)</span></p><p><b style=\"font-size: 1.5rem;\"><br>Wednesday, May 19th</b><br></p><p><span style=\"font-size: 1.5rem;\">1050-1600 Red Team Challenger Capture the Flag (CTF)&nbsp;</span></p><p><span style=\"font-size: 1.5rem;\">1135-1215&nbsp; &nbsp;BoF: Building the Red Team Capability by Phillip Martin and David Wolpoff&nbsp;</span></p><p><span style=\"font-size: 1.5rem;\">1135-1215&nbsp; &nbsp;BoF: A Pentesters Career Discussion by Phillip Wylie</span></p><p><span style=\"font-size: 1.5rem;\">1135-1215&nbsp; &nbsp;BoF: Value of OSINT to Cyber and Red Teaming by Lee McWhorter</span></p><p><span style=\"font-size: 1.5rem;\">1135-1215&nbsp; &nbsp;BoF: Trusting Zero Trust: Why Red Teaming Is The Only Answer by Aaron Portnoy</span></p><p><span style=\"font-size: 1.5rem;\">1245-1325&nbsp; Bypassing EDR's by Matt Eidelberg</span></p><p><span style=\"font-size: 1.5rem;\">13:30-1410&nbsp; The Future of Pen Testing and Red Teaming (panel) with Omar Santos, Phillipe Wylie,&nbsp; and Joseph Mlodzianowski</span></p><p><span style=\"font-size: 1.5rem;\">1415-1455&nbsp; &nbsp;Next Gen Managed Detection and Response by London Eubanks and Conrad Clark</span></p><p><span style=\"font-size: 1.5rem;\">1500-1530&nbsp; Operationalizing Attack Surface Management by Kyle Howson</span></p><p><span style=\"font-size: 1.5rem;\"><br></span></p><p><span style=\"font-size: 1.5rem;\"><b>NOTE</b>: All Birds of a Feather (BoF) presentations run simultaneously.&nbsp;</span></p><p><span style=\"font-size: 1.5rem;\"><br></span></p><p><span style=\"font-size: 1.5rem;\"><br></span><br></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "stnKqcdQIM",
-          "_anchor": "content1-1w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content1-1w"
         },
         {
           "alias": false,
