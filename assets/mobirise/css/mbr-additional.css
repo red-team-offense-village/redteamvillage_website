@@ -6458,7 +6458,23 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-sAZAkF8hCN {
+  padding-top: 90px;
+  padding-bottom: 15px;
   background-image: url("../../../assets/images/rtv-2020-icon-servericon.png");
+}
+.cid-sCHiS9SscV {
+  background: #000000;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #000000, #350004);
+}
+.cid-sCHiS9SscV .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-sCHiS9SscV .video-block {
+    width: 100% !important;
+  }
 }
 .cid-s8UP1ImVio {
   padding-top: 30px;
