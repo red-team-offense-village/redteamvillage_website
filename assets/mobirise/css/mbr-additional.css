@@ -1464,6 +1464,24 @@ section.lazy-placeholder:after {
 .cid-sEipBvct5Y .mbr-text {
   color: #767676;
 }
+.cid-sEqlS5ONbB {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-sEqlS5ONbB .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sEqlS5ONbB .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-sEqlS5ONbB .mbr-text {
+  color: #767676;
+}
 .cid-s8UP1ImVio {
   padding-top: 30px;
   padding-bottom: 30px;
