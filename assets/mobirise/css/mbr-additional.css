@@ -684,21 +684,24 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-sy7miQVZSn {
-  padding-top: 120px;
-  padding-bottom: 30px;
+.cid-sFERW9FkCT {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #000000;
 }
-.cid-sFkcptZ3Po {
-  background: #350004;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: linear-gradient(0deg, #350004, #000000);
+.cid-sFERW9FkCT .mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
 }
-.cid-sFkcptZ3Po .video-block {
-  margin: auto;
+.cid-sFERW9FkCT .mbr-figure img {
+  height: 100%;
+  margin: 0 auto;
 }
-@media (max-width: 768px) {
-  .cid-sFkcptZ3Po .video-block {
+@media (max-width: 991px) {
+  .cid-sFERW9FkCT .mbr-figure img {
     width: 100% !important;
   }
 }
