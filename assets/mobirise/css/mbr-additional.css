@@ -3222,6 +3222,20 @@ section.lazy-placeholder:after {
 .cid-s8UP1ImVio .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-tb1goZguk2 {
+  background-image: url("../../../assets/images/mbr-1920x1397.jpg");
+}
+.cid-tb1goZguk2 .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-tb1goZguk2 .media-container-column {
+  background-color: #4f4943;
+}
+@media (max-width: 767px) {
+  .cid-tb1goZguk2 .media-container-column {
+    padding: 1rem !important;
+  }
+}
 .cid-tb1bwqQpx6 .navbar {
   padding: .5rem 0;
   background: #333333;
