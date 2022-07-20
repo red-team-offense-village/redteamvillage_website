@@ -47,7 +47,16 @@
     "uniqCompNum": 162,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
-    "imageResize": true
+    "imageResize": true,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://redteamvillage.io",
+    "sitemapSwitcherAuto": "on",
+    "favicon": false,
+    "mbrsiteDomain": "urroanj6yh",
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
