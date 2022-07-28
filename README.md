@@ -1,5 +1,5 @@
 # RED TEAM VILLAGE - AN OFFICIAL DEF CON VILLAGE
-This is the code (source) for the [Red Team Offense Village](https://redteamvillage.io) DEF CON official village.
+This is the code (source) for the [Red Team Village](https://redteamvillage.io) DEF CON official village.
 
 The Red Team Village (RTV) was created to bridge the gap between penetration testers and offensive security team functions. While DEF CON is considered a hacking conference somewhat of an offensive conference, there are a great more challenges and villages devoted to defense. The Red Team Offense Village is focused at training the art of critical strategy, collaboration and thinking. Where seventy five percent of the work should be done prior to any engagement. We say not every nail requires a hammer and not everything that looks like a nail is.
 
