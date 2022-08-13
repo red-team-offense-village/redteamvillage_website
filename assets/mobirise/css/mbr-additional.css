@@ -7761,6 +7761,10 @@ section.lazy-placeholder:after {
     padding: 1rem !important;
   }
 }
+.cid-tdTtzacg8t .mbr-text,
+.cid-tdTtzacg8t .mbr-section-btn {
+  text-align: center;
+}
 .cid-tdTtzb9dHT .navbar {
   padding: .5rem 0;
   background: #333333;
