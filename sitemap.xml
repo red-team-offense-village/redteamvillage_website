@@ -12,13 +12,7 @@
 		<loc>https://redteamvillage.io/stations.html</loc>
 	</url>
 	<url>
-		<loc>https://redteamvillage.io/workshops.html</loc>
-	</url>
-	<url>
 		<loc>https://redteamvillage.io/schedule.html</loc>
-	</url>
-	<url>
-		<loc>https://redteamvillage.io/AI_panel.html</loc>
 	</url>
 	<url>
 		<loc>https://redteamvillage.io/websploit.html</loc>
@@ -28,9 +22,6 @@
 	</url>
 	<url>
 		<loc>https://redteamvillage.io/osint.html</loc>
-	</url>
-	<url>
-		<loc>https://redteamvillage.io/Container_Kubernetes_Offense.html</loc>
 	</url>
 	<url>
 		<loc>https://redteamvillage.io/cyber_r.html</loc>
