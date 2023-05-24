@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap);
+
+
+
+
+
 body {
   font-family: Rubik;
 }
@@ -678,45 +684,40 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-tElBCZiK6m {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
+.cid-tF8rJJWrDI {
+  padding-top: 120px;
+  padding-bottom: 45px;
+  background-color: #010405;
 }
-.cid-tElBYEtNjt {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
+.cid-tF8rJJWrDI .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
-.cid-tElBYEtNjt .mbr-text,
-.cid-tElBYEtNjt blockquote {
-  color: #767676;
+@media (min-width: 992px) {
+  .cid-tF8rJJWrDI .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
 }
-.cid-tElBYEtNjt .mbr-text P {
-  text-align: center;
+@media (max-width: 991px) {
+  .cid-tF8rJJWrDI .mbr-figure {
+    padding-bottom: 3rem;
+  }
 }
-.cid-tElBYEtNjt .mbr-text {
-  color: #ffffff;
+@media (max-width: 767px) {
+  .cid-tF8rJJWrDI .mbr-text {
+    text-align: center;
+  }
 }
-.cid-tElClryVoD {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
-}
-.cid-tElClryVoD .mbr-text,
-.cid-tElClryVoD blockquote {
-  color: #767676;
-}
-.cid-tElClryVoD .mbr-text {
-  color: #ffffff;
-}
-.cid-tElClryVoD .mbr-text P {
+.cid-tF8rJJWrDI .mbr-text,
+.cid-tF8rJJWrDI .mbr-section-btn {
   text-align: center;
 }
 .cid-tElDoYkK0J {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #000000;
+  background-color: #232323;
 }
 .cid-tElDoYkK0J .line {
   background-color: #ffffff;
@@ -801,27 +802,6 @@ section.lazy-placeholder:after {
 }
 .cid-tElCmvtzjd .mbr-text P {
   text-align: center;
-}
-.cid-sFERW9FkCT {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #000000;
-}
-.cid-sFERW9FkCT .mbr-figure {
-  margin: 0 auto;
-  width: 100%;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-sFERW9FkCT .mbr-figure img {
-  height: 100%;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .cid-sFERW9FkCT .mbr-figure img {
-    width: 100% !important;
-  }
 }
 .cid-sAZKmvZ0WS {
   padding-top: 60px;
