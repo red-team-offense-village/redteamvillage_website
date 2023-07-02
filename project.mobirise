@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 297,
+    "uniqCompNum": 301,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -1381,7 +1381,7 @@
       "settings": {
         "meta_descr": "Past Events - DEF CON Red Team Village The DEF CON Red Team Village is a community driven village. The Red Team Village was created to bridge the gap between penetration testers and offensive team functions.  Join thousands of cybersecurity professionals and participate in free training, technical briefings, workshops, and capture the flag (CTF) events.",
         "title": "Past Events - DEF CON Red Team Village",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -1946,7 +1946,7 @@
       "settings": {
         "meta_descr": "By supporting the Red Team Village, you allow us to ensure the latest equipment, tools, techniques and materials are made available for learning, engagement, and knowledge transfer. \nThe Red Team Operator is a necessary component in the training the Blue Team’s defensive skills. These two teams help each other build skills and grow in abilities. We focus on one side of that equation and continuously look for opportunities to engage with defensively focused organizations. The Red Team Village focuses on a particular skill set and works to build skilled, proficient operators. \nBy supporting the Red Team Village, you allow us to ensure the latest equipment, tools, techniques and materials are made available for learning, engagement, and knowledge transfer. The Red Team Operator is a necessary component in the training the Blue Team’s defensive skills. These two teams help each other build skills and grow in abilities. We focus on one side of that equation and continuously look for opportunities to engage with defensively focused organizations. The Red Team Village focuses on a particular skill set and works to build skilled, proficient operators. Thank you for your interest in supporting the RTV and its mission to train the next generation of penetration testers and red team operators.",
         "title": "Sponsors - Red Team Vilalge",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -2533,7 +2533,7 @@
       "settings": {
         "meta_descr": "The Red Team Village schedule during DEF CON 30. RTV will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "Schedule",
-        "order": 20,
+        "order": 21,
         "meta_image": "@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png"
       },
       "components": [
@@ -3111,7 +3111,7 @@
           },
           "_name": "content9",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"83\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>\n\n                \n <!-- TRABLE FOR DAY 1 (FRIDAY) -->\n\n                \n                \n                \n\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-85f9{background-color:#FFF;color:#232323;font-weight:bold;position:-webkit-sticky;position:sticky;text-align:center;\n  top:-1px;vertical-align:middle;will-change:transform}\n.tg .tg-6uv5{background-color:#FFF;color:#232323;text-align:center;vertical-align:middle}\n.tg .tg-voy2{background-color:#FFF;color:#149DCC;text-align:center;vertical-align:top}\n@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>\n<div class=\"tg-wrap\"><table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Time</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 1</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 2</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 3</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 4</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 5</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 6</span></th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-6uv5\">9am</td>\n    <td class=\"tg-6uv5\">Android Applications and APIs Hacking</td>\n    <td class=\"tg-voy2\" rowspan=\"3\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"wifi.html\" class=\"text-primary\" target=\"_blank\">Build Your Own WiFi Hacking Tool with the Nugget!</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page14.html\" class=\"text-primary\" target=\"_blank\">Passwords Argh Us</a></span></td>\n    <td class=\"tg-6uv5\" rowspan=\"2\">OSINT Workshop</td>\n    <td class=\"tg-6uv5\">Red Team Labs and Games for Kids</td>\n    <td class=\"tg-6uv5\" rowspan=\"2\">Hacking VR Devices</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">10am</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"dll.html\" class=\"text-primary\" target=\"_blank\">Hunting &amp; Exploiting DLL Sideloads</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-6uv5\">Red Team Labs and Games for Kids</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">11am</td>\n    <td class=\"tg-6uv5\" rowspan=\"6\">Direct Syscalls: A journey from high to low</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page14.html\" class=\"text-primary\" target=\"_blank\">Passwords Argh Us</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Break</td>\n    <td class=\"tg-6uv5\" rowspan=\"2\">Artificial Intelligence for Red Team Operations</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">12pm</td>\n    <td class=\"tg-6uv5\">Hacking Web Apps and APIs with WebSploit Labs</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-voy2\" colspan=\"2\" rowspan=\"2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page17.html\" class=\"text-primary\" target=\"_blank\">Scripting OWASP Amass for a Customized Experience</a></span></td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">1pm</td>\n    <td class=\"tg-voy2\" rowspan=\"2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page15.html\" class=\"text-primary\" target=\"_blank\">How to [NOT] Look Like a Red Team</a></span></td>\n    <td class=\"tg-voy2\"><a href=\"page19.html\" class=\"text-primary\" target=\"_blank\">Storfield: A Quiet Methodology to Create Attacks in Mature Networks</a></td>\n    <td class=\"tg-6uv5\" rowspan=\"4\">How Most Internal Networks are Compromised: A Set of Common Active Directory Attacks and How to Perform Them from Linux</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">2pm</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"iocs.html\" class=\"text-primary\" target=\"_blank\">IOCs + APTs = \"Let's play a game!\" - Hack your way through a hunt!</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Hacker's Toolkit: Python and Scapy for Exploitation and Post-Exploitation Techniques</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">3pm</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"osint.html\" class=\"text-primary\" target=\"_blank\">OSINT Skills Lab Challenge</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\"><a href=\"page20.html\" class=\"text-primary\" target=\"_blank\">Malware Hunting an Offensive Approach</a></td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">4pm</td>\n    <td class=\"tg-6uv5\"><a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">How to prioritize Red Team Findings? Presenting CRTFSS: Common Red Team Findings Score System Ver. 1.0</a></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"osint.html\" class=\"text-primary\" target=\"_blank\">OSINT Skills Lab Challenge</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Hacking Web Apps and APIs with WebSploit Labs</td>\n  </tr>\n</tbody>\n</table></div>\n                \n                \n                \n                \n                \n                \n                \n <!-- END OF TRABLE FOR DAY 1 (FRIDAY) -->\n\n            </div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"83\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>\n\n                \n <!-- TRABLE FOR DAY 1 (FRIDAY) -->\n\n                \n                \n                \n\n<style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-85f9{background-color:#FFF;color:#232323;font-weight:bold;position:-webkit-sticky;position:sticky;text-align:center;\n  top:-1px;vertical-align:middle;will-change:transform}\n.tg .tg-6uv5{background-color:#FFF;color:#232323;text-align:center;vertical-align:middle}\n.tg .tg-voy2{background-color:#FFF;color:#149DCC;text-align:center;vertical-align:top}\n@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>\n<div class=\"tg-wrap\"><table class=\"tg\">\n<thead>\n  <tr>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Time</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 1</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 2</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 3</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 4</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 5</span></th>\n    <th class=\"tg-85f9\"><span style=\"font-weight:bold\">Area 6</span></th>\n  </tr>\n</thead>\n<tbody>\n  <tr>\n    <td class=\"tg-6uv5\">9am</td>\n    <td class=\"tg-6uv5\">Android Applications and APIs Hacking</td>\n    <td class=\"tg-voy2\" rowspan=\"3\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"wifi.html\" class=\"text-primary\" target=\"_blank\">Build Your Own WiFi Hacking Tool with the Nugget!</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page14.html\" class=\"text-primary\" target=\"_blank\">Passwords Argh Us</a></span></td>\n    <td class=\"tg-6uv5\" rowspan=\"2\">OSINT Workshop</td>\n    <td class=\"tg-6uv5\">Red Team Labs and Games for Kids</td>\n    <td class=\"tg-6uv5\" rowspan=\"2\"><a href=\"page23.html\" class=\"text-primary\" target=\"_blank\">Hacking Meta Quest</a></td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">10am</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"dll.html\" class=\"text-primary\" target=\"_blank\">Hunting &amp; Exploiting DLL Sideloads</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-6uv5\">Red Team Labs and Games for Kids</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">11am</td>\n    <td class=\"tg-6uv5\" rowspan=\"6\">Direct Syscalls: A journey from high to low</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page14.html\" class=\"text-primary\" target=\"_blank\">Passwords Argh Us</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Break</td>\n    <td class=\"tg-6uv5\" rowspan=\"2\">Artificial Intelligence for Red Team Operations</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">12pm</td>\n    <td class=\"tg-6uv5\">Hacking Web Apps and APIs with WebSploit Labs</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-voy2\" colspan=\"2\" rowspan=\"2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page17.html\" class=\"text-primary\" target=\"_blank\">Scripting OWASP Amass for a Customized Experience</a></span></td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">1pm</td>\n    <td class=\"tg-voy2\" rowspan=\"2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"page15.html\" class=\"text-primary\" target=\"_blank\">How to [NOT] Look Like a Red Team</a></span></td>\n    <td class=\"tg-voy2\"><a href=\"page19.html\" class=\"text-primary\" target=\"_blank\">Storfield: A Quiet Methodology to Create Attacks in Mature Networks</a></td>\n    <td class=\"tg-6uv5\" rowspan=\"4\">How Most Internal Networks are Compromised: A Set of Common Active Directory Attacks and How to Perform Them from Linux</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">2pm</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"iocs.html\" class=\"text-primary\" target=\"_blank\">IOCs + APTs = \"Let's play a game!\" - Hack your way through a hunt!</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Hacker's Toolkit: Python and Scapy for Exploitation and Post-Exploitation Techniques</td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">3pm</td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"redhot.html\" class=\"text-primary\" target=\"_blank\">Red Hot (Red Team TTPs)</a></span></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"osint.html\" class=\"text-primary\" target=\"_blank\">OSINT Skills Lab Challenge</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\"><a href=\"page20.html\" class=\"text-primary\" target=\"_blank\">Malware Hunting an Offensive Approach</a></td>\n  </tr>\n  <tr>\n    <td class=\"tg-6uv5\">4pm</td>\n    <td class=\"tg-6uv5\"><a href=\"page21.html\" class=\"text-primary\" target=\"_blank\">How to prioritize Red Team Findings? Presenting CRTFSS: Common Red Team Findings Score System Ver. 1.0</a></td>\n    <td class=\"tg-voy2\"><span style=\"font-weight:400;font-style:normal;text-decoration:none;color:#149DCC;background-color:transparent\"><a href=\"osint.html\" class=\"text-primary\" target=\"_blank\">OSINT Skills Lab Challenge</a></span></td>\n    <td class=\"tg-6uv5\" colspan=\"2\">Hacking Web Apps and APIs with WebSploit Labs</td>\n  </tr>\n</tbody>\n</table></div>\n                \n                \n                \n                \n                \n                \n                \n <!-- END OF TRABLE FOR DAY 1 (FRIDAY) -->\n\n            </div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content9-6k",
@@ -3285,7 +3285,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "WebSploit Labs - Omar Santos",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -3848,7 +3848,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "HackerOps: DevOps for Conducting Security Assessments",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -4411,7 +4411,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "OSINT Skills Lab Challenge",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -4980,7 +4980,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "Cyber Resilience",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -5543,7 +5543,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "RTV - Venue",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -14369,6 +14369,578 @@
           "_once": "footers",
           "_params": {},
           "_anchor": "footer7-88"
+        }
+      ]
+    },
+    "page23.html": {
+      "settings": {
+        "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
+        "title": "Hacking Meta Quest",
+        "order": 15
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://redteamvillage.io\">\n                         <img src=\"@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://redteamvillage.io/\" data-app-placeholder=\"Type Text\">RED TEAM VILLAGE\n                    </a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"https://discord.gg/redteamvillage\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>DISCORD</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://twitter.com/RedTeamVillage_\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        TWITTER</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://www.youtube.com/redteamvillage\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        YOUTUBE</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://forms.gle/HVrGA7iyyLsFiu2J8\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-hearth mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        SPONSORS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"schedule.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        SCHEDULE</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://redteamvillage.square.site/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-cart-add mbr-iconfont mbr-iconfont-btn\"></span>2023 BADGE SALES</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tIOqhOjnJX",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-89"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1233.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">Hacking Meta Quest</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">By: <a href=\"https://twitter.com/knetivty\" class=\"text-primary\" target=\"_blank\">Paul D.</a><br><a href=\"https://twitter.com/knetivty\" class=\"text-primary\" target=\"_blank\">@knetivty</a></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tIOqhOFrWj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-8a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".mbr-text, blockquote\">\n                <blockquote><p><span style=\"font-style: normal;\"><b>Abstract:</b></span></p><p><span style=\"font-style: normal;\">We will have our Meta Quest 2, Meta Quest Pro and Ray-Ban Stories devices available and firmware on-site to support native/hardware live hack competitions.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tIOqhOUeDR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-8b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-justify-content": "center",
+                "justify-content": "center",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap",
+                "-webkit-justify-content": "flex-end",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer7",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/VillageRedTeam\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://discord.gg/redteamvillage\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-discord socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://redteamvillage.io/youtube\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.twitch.tv/redteamvillage\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitch socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">(c)2023, Red Team Village</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tIOqhP3x2K",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer7-8c"
         }
       ]
     }
