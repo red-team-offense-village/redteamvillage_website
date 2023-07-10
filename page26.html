@@ -5,12 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="(In)Direct Syscalls: A Journey from High to Low">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/rtv-2020-icon-servericon.png" type="image/x-icon">
   <meta name="description" content="We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.">
   
   
-  <title>Direct Syscalls: A Journey from High to Low</title>
+  <title>(In)Direct Syscalls: A Journey from High to Low</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -20,6 +24,8 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -95,7 +101,30 @@
     <div class="container">
         <div class="media-container-row">
             <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
-                <blockquote><p><span style="font-style: normal;"><strong>Abstract:</strong></span></p><p><span style="font-style: normal;">A workshop where people can learn step by step what a syscall is, what a direct syscall is, why red teamers use syscalls, and so on. Then I could teach people step by step how to create their own direct syscall dropper, starting with Windows APIs and ending with direct syscalls (low level APIs). Basic knowledge of Windows, Meterpreter etc. In general, one of my strongest skills is teaching people step by step what they need, even if they are new to the field.&nbsp;</span></p><p><span style="font-style: normal; font-size: 1.09rem;">Additional Information at:&nbsp;</span></p><p><span style="font-style: normal; font-size: 1.09rem;"><a href="https://redops.at/en/blog/direct-syscalls-a-journey-from-high-to-low" class="text-primary" target="_blank">https://redops.at/en/blog/direct-syscalls-a-journey-from-high-to-low</a></span><br></p></blockquote>
+                <blockquote><p><span style="font-style: normal;"><strong>Abstract:</strong></span></p><p>Our workshop/journey will be called "(In)direct Syscalls: A Journey from High to Low". It is a hands-on experience where we start with some Windows internals basics, talk about system calls in Windows OS in general, take a look at Win32 APIs, Native APIs, etc. We also take a look at the concepts of direct syscalls and indirect syscalls. Based on various chapters, each student will build their own indirect syscall shellcode loader step by step and analyze it a bit with x64dbg. Below is an overview of the chapters covered in the workshop.
+</p><p>- Chapter 1: Windows NT Basics
+</p><p>- Chapter 2: Windows OS System Calls
+</p><p>- Chapter 3: The concept of direct syscalls
+</p><p>- Chapter 4: Building and Analyzing the Win32 API shellcode loader
+</p><p>- Chapter 5: Building and analyzing the NTAPI shellcode loader
+</p><p>- Chapter 6: Build and analyze the direct shellcode loader
+</p><p>- Chapter 7: Build and analyze the indirect shellcode loader
+</p><p>- Chapter 8: Call stack analysis 
+</p><p>- Chapter 9: Summary
+</p><p>If we have some time left, we can take a look at the bonus chapters to improve our indirect syscall shellcode loader step by step.
+</p><p>- Bonus Chapter 1: Getting SSNs dynamically via GetProcAddress
+</p><p>- Bonus Chapter 2: Getting SSNs dynamically via PEB/EAT
+</p><p>- Bonus Chapter 3: Indirect Syscalls and Hooked SSNs via EDR
+</p><p>All materials required for this workshop will be posted on the day of the event, August 12th (US time). These resources, including slides, theory, playbooks, etc., will be hosted on a dedicated GitHub repository to ensure easy access for all attendees. The link to this repository will be published on the day of the workshop and will be available at
+</p><p><a href="https://github.com/VirtualAlllocEx/DEFCON-31-Syscalls-Workshop" class="text-primary" target="_blank">https://github.com/VirtualAlllocEx/DEFCON-31-Syscalls-Workshop</a>
+</p><p>The general requirements and the technical requirements can be found at the following links.
+</p><p><a href="https://redops.at/en/blog/def-con-31-red-team-village#:~:text=Generell%20requirements" class="text-primary" target="_blank">https://redops.at/en/blog/def-con-31-red-team-village#:~:text=Generell%20requirements</a>
+</p><p><a href="https://redops.at/en/blog/def-con-31-red-team-village#:~:text=Technical%C2%A0requirements" class="text-primary" target="_blank">https://redops.at/en/blog/def-con-31-red-team-village#:~:text=Technical%C2%A0requirements</a></p><p>
+</p><p>
+</p><p>
+</p><p>
+</p><p>
+</p></blockquote>
             </div>
         </div>
     </div>
@@ -144,8 +173,8 @@
 </section>
 
 
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>

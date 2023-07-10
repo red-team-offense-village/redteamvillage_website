@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="">
+  <meta property="og:image" content="">
+  <meta name="twitter:title" content="Hunting & Exploiting DLL Sideloads">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/rtv-2020-icon-servericon.png" type="image/x-icon">
   <meta name="description" content="We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.">
@@ -20,6 +24,8 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -28,7 +34,26 @@
 </head>
 <body>
   
-  <section class="menu cid-tIO3qqCLxQ" once="menu" id="menu1-6q">
+  <section class="mbr-section content5 cid-tIO9Nt9qSH mbr-parallax-background" id="content5-73">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Hunting &amp; Exploiting DLL Sideloads</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Matthew Nickerson CRTO, OSCP&nbsp;<div>Offensive Security Consultant @ Layer 8 Security</div><div><br></div><div>Nick Swink OSCP, PNPT</div><div>Offensive Security Consultant @ Layer 8 Security</div></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu cid-tIO3qqCLxQ" once="menu" id="menu1-6q">
 
     
 
@@ -67,25 +92,6 @@
             
         </div>
     </nav>
-</section>
-
-<section class="mbr-section content5 cid-tIO9Nt9qSH mbr-parallax-background" id="content5-73">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);">
-    </div>
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">Hunting &amp; Exploiting DLL Sideloads</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">Matthew Nickerson CRTO, OSCP&nbsp;<div>Offensive Security Consultant @ Layer 8 Security</div><div><br></div><div>Nick Swink OSCP, PNPT</div><div>Offensive Security Consultant @ Layer 8 Security</div></h3>
-                
-                
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="mbr-section article content1 cid-tIO3qrcDSq" id="content2-6s">
@@ -144,8 +150,8 @@
 </section>
 
 
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
