@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 358,
+    "uniqCompNum": 356,
     "versionPublish": "5.8.9",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -59,7 +59,9 @@
     "mbrsiteDomain": "xf8lo9qc6u",
     "cookiesAlert": false,
     "gdpr": false,
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -117,7 +119,7 @@
           },
           "_name": "header3",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#010405\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#010405\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png\" alt=\"DEF CON RED TEAM VILLAGE\">\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">\n                    Red Team Village</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\">Celebrating DEF CON 31 Years!<br>August 10-13, 2023 <br><a href=\"page9.html\" class=\"text-primary\">Flamingo Hotel, Twilight Ballroom</a><br><br>Hours of Operation During DEF CON 31:<br>Friday: 11:00 - 17:00<br>Saturday: 09:00 - 17:00<br>Sunday: 09:00 - 12:00<br><br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://drive.google.com/file/d/1zf61os2fSqPvg8sQj6pl6eMqQirR-MYT/view\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>WORKSHOP RESERVATION AND SIGN-UP INFORMATION</a> <a class=\"btn btn-md btn-success\" href=\"schedule.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">SCHEDULE</a> <a class=\"btn btn-md btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"#\">CALL FOR VOLUNTEERS Has Closed</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#010405\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#010405\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png\" alt=\"DEF CON RED TEAM VILLAGE\">\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">\n                    Red Team Village</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-5\">Celebrating DEF CON 31 Years!<br>August 10-13, 2023 <br><a href=\"page9.html\" class=\"text-primary\">Flamingo Hotel, Twilight Ballroom</a><br><br>Hours of Operation During DEF CON 31:<br>Friday: 11:00 - 17:00<br>Saturday: 09:00 - 17:00<br>Sunday: 09:00 - 12:00<br><br></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-success\" href=\"schedule.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">SCHEDULE</a> <a class=\"btn btn-md btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"#\">CALL FOR VOLUNTEERS Has Closed</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "tF8rJJWrDI",
           "_anchor": "header3-62",
           "_protectedParams": [],
@@ -246,7 +248,6 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n        \n        <header>Gallery</header>\n        <input type=\"gallery\" subtype=\"flex\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-count=\"2\" mbr-gallery-first-count=\"3\" mbr-gallery-second-count=\"2\" mbr-gallery-third-count=\"2\" mbr-gallery-fourth-count=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "tLIisxbDyj",
-          "_anchor": "gallery4-9v",
           "_protectedParams": [
             "gallery"
           ],
@@ -272,7 +273,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-1019-edit-1463x729.png",
+                "image": "@PROJECT_PATH@/assets/images/img_1019-edit-1463x729.png",
                 "thumb": "@PROJECT_PATH@/assets/images/img-1019-edit-1463x729-800x399.png",
                 "alt": "2023 RTV Collectable Coin",
                 "title": "",
@@ -307,7 +308,8 @@
                 "active": false
               }
             ]
-          }
+          },
+          "_anchor": "gallery4-9v"
         },
         {
           "alias": false,
@@ -1464,7 +1466,7 @@
       "settings": {
         "meta_descr": "Past Events - DEF CON Red Team Village The DEF CON Red Team Village is a community driven village. The Red Team Village was created to bridge the gap between penetration testers and offensive team functions.  Join thousands of cybersecurity professionals and participate in free training, technical briefings, workshops, and capture the flag (CTF) events.",
         "title": "Past Events - DEF CON Red Team Village",
-        "order": "33"
+        "order": 32
       },
       "components": [
         {
@@ -2029,7 +2031,7 @@
       "settings": {
         "meta_descr": "By supporting the Red Team Village, you allow us to ensure the latest equipment, tools, techniques and materials are made available for learning, engagement, and knowledge transfer. \nThe Red Team Operator is a necessary component in the training the Blue Team’s defensive skills. These two teams help each other build skills and grow in abilities. We focus on one side of that equation and continuously look for opportunities to engage with defensively focused organizations. The Red Team Village focuses on a particular skill set and works to build skilled, proficient operators. \nBy supporting the Red Team Village, you allow us to ensure the latest equipment, tools, techniques and materials are made available for learning, engagement, and knowledge transfer. The Red Team Operator is a necessary component in the training the Blue Team’s defensive skills. These two teams help each other build skills and grow in abilities. We focus on one side of that equation and continuously look for opportunities to engage with defensively focused organizations. The Red Team Village focuses on a particular skill set and works to build skilled, proficient operators. Thank you for your interest in supporting the RTV and its mission to train the next generation of penetration testers and red team operators.",
         "title": "Sponsors - Red Team Vilalge",
-        "order": "32"
+        "order": 31
       },
       "components": [
         {
@@ -2616,7 +2618,7 @@
       "settings": {
         "meta_descr": "The Red Team Village schedule during DEF CON 30. RTV will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "Schedule",
-        "order": "31",
+        "order": 30,
         "meta_image": "@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png"
       },
       "components": [
@@ -3368,7 +3370,7 @@
       "settings": {
         "meta_descr": "Hacking Web Apps and APIs with WebSploit Labs. \nWebSploit Labs is a learning environment created by Omar Santos for different Cybersecurity Ethical Hacking, Bug Hunting, Incident Response, Digital Forensics, and Threat Hunting training sessions. WebSploit Labs includes several intentionally vulnerable applications running in Docker containers on top of Kali Linux or Parrot Security OS, several additional tools, and over 9,000 cybersecurity resources.\n\nWebSploit Labs has been used by many colleges and universities in different countries. It comes with over 500 distinct exercises!",
         "title": "Hacking Web Apps and APIs with WebSploit Labs - Omar Santos",
-        "order": "27"
+        "order": 26
       },
       "components": [
         {
@@ -3940,7 +3942,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "OSINT Skills Lab Challenge",
-        "order": "23"
+        "order": 22
       },
       "components": [
         {
@@ -4509,7 +4511,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "Cyber Resilience",
-        "order": "30"
+        "order": 29
       },
       "components": [
         {
@@ -5072,7 +5074,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "RTV - Venue",
-        "order": "22"
+        "order": 21
       },
       "components": [
         {
@@ -5907,7 +5909,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Red Hot -  DEF CON Red Team Village Workshop",
-        "order": "2"
+        "order": 1
       },
       "components": [
         {
@@ -6477,7 +6479,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Hunting & Exploiting DLL Sideloads",
-        "order": "3"
+        "order": 2
       },
       "components": [
         {
@@ -7049,7 +7051,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Build Your Own Cat-Shaped USB Hacking Tool! (with the Nugget)",
-        "order": "4"
+        "order": 3
       },
       "components": [
         {
@@ -7619,7 +7621,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Build Your Own WiFi Hacking Tool with the Nugget!",
-        "order": "5"
+        "order": 4
       },
       "components": [
         {
@@ -8189,7 +8191,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "An Introduction to SAML and its Security\n",
-        "order": "6"
+        "order": 5
       },
       "components": [
         {
@@ -8759,7 +8761,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Passwords Argh Us",
-        "order": "7"
+        "order": 6
       },
       "components": [
         {
@@ -9329,7 +9331,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "How to [NOT] Look Like a Red Team",
-        "order": "8"
+        "order": 7
       },
       "components": [
         {
@@ -9901,7 +9903,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "IOCs + APTs = \"Let's play a game!\" - Hack your way through a hunt!",
-        "order": "9"
+        "order": 8
       },
       "components": [
         {
@@ -10473,7 +10475,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Scripting OWASP Amass for a Customized Experience",
-        "order": "10"
+        "order": 9
       },
       "components": [
         {
@@ -11045,7 +11047,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "SSH Tunneling: Evading Network Detection and Creating Proxies",
-        "order": "11"
+        "order": 10
       },
       "components": [
         {
@@ -11617,7 +11619,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Storfield: A Quiet Methodology to Create Attacks in Mature Networks",
-        "order": "12"
+        "order": 11
       },
       "components": [
         {
@@ -12189,7 +12191,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Malware Hunting an Offensive Approach",
-        "order": "13"
+        "order": 12
       },
       "components": [
         {
@@ -12761,7 +12763,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "How to prioritize Red Team Findings",
-        "order": "14"
+        "order": 13
       },
       "components": [
         {
@@ -13333,7 +13335,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Kubernetes Offense",
-        "order": "15"
+        "order": 14
       },
       "components": [
         {
@@ -13905,7 +13907,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Hacking Meta Quest",
-        "order": "16"
+        "order": 15
       },
       "components": [
         {
@@ -14477,7 +14479,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Hacking Real Web Areas ",
-        "order": "17"
+        "order": 16
       },
       "components": [
         {
@@ -15049,7 +15051,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "Android Applications and APIs Hacking",
-        "order": "18"
+        "order": 17
       },
       "components": [
         {
@@ -15621,7 +15623,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "(In)Direct Syscalls: A Journey from High to Low",
-        "order": "19"
+        "order": 18
       },
       "components": [
         {
@@ -16193,7 +16195,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "AI for Red Team Operations",
-        "order": "20"
+        "order": 19
       },
       "components": [
         {
@@ -16765,7 +16767,7 @@
       "settings": {
         "meta_descr": "We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.",
         "title": "How Most Internal Networks are Compromised",
-        "order": "21"
+        "order": 20
       },
       "components": [
         {
@@ -17337,7 +17339,7 @@
       "settings": {
         "meta_descr": "Everyone is Leveraging AI as a Co-Pilot. Let's do it to learn Python and Scapy for Red Team Operations and offensive security.\nArtificial Intelligence (AI) has paved its way into many fields, and cybersecurity is no exception. AI can significantly augment red team operations by enhancing the learning process of key tools like Python and Scapy. Let's delve into how AI can act as an indispensable co-pilot in mastering these crucial tools for cybersecurity tasks.\nOne of the primary benefits of utilizing AI in learning things like Python and Scapy is the technology's ability to create personalized, adaptive learning pathways. AI systems can analyze a learner's progress, identify areas where they struggle, and provide additional exercises and resources to bolster understanding. AI provides real-time, interactive feedback, allowing learners to identify and correct mistakes immediately. In red team operations, where precision and accuracy are paramount, such instantaneous feedback can significantly enhance the learning process. This feature is particularly beneficial in learning programming languages like Python and tools like Scapy, where troubleshooting and debugging are essential skills.\nThis workshop is designed to equip hackers, and IT professionals with advanced techniques and hands-on experience in reconnaissance, exploitation, and post-exploitation operations using Python and Scapy. You will use WebSploit Labs. \nWebSploit Labs is a learning environment created by Omar Santos for different Cybersecurity Ethical Hacking, Bug Hunting, Incident Response, Digital Forensics, and Threat Hunting training sessions. WebSploit Labs includes several intentionally vulnerable applications running in Docker containers on top of Kali Linux or Parrot Security OS, several additional tools, and over 9,000 cybersecurity resources.\nWebSploit Labs has been used by many colleges and universities in different countries. It comes with over 500 distinct exercises!",
         "title": "AI-Driven Hacker's Toolkit: Using AI to Learn Python and Scapy for Exploitation and Post-Exploitation Techniques",
-        "order": "28"
+        "order": 27
       },
       "components": [
         {
@@ -17909,7 +17911,7 @@
       "settings": {
         "meta_descr": "Everyone is Leveraging AI as a Co-Pilot. Let's do it to learn Python and Scapy for Red Team Operations and offensive security.\nArtificial Intelligence (AI) has paved its way into many fields, and cybersecurity is no exception. AI can significantly augment red team operations by enhancing the learning process of key tools like Python and Scapy. Let's delve into how AI can act as an indispensable co-pilot in mastering these crucial tools for cybersecurity tasks.\nOne of the primary benefits of utilizing AI in learning things like Python and Scapy is the technology's ability to create personalized, adaptive learning pathways. AI systems can analyze a learner's progress, identify areas where they struggle, and provide additional exercises and resources to bolster understanding. AI provides real-time, interactive feedback, allowing learners to identify and correct mistakes immediately. In red team operations, where precision and accuracy are paramount, such instantaneous feedback can significantly enhance the learning process. This feature is particularly beneficial in learning programming languages like Python and tools like Scapy, where troubleshooting and debugging are essential skills.\nThis workshop is designed to equip hackers, and IT professionals with advanced techniques and hands-on experience in reconnaissance, exploitation, and post-exploitation operations using Python and Scapy. You will use WebSploit Labs. \nWebSploit Labs is a learning environment created by Omar Santos for different Cybersecurity Ethical Hacking, Bug Hunting, Incident Response, Digital Forensics, and Threat Hunting training sessions. WebSploit Labs includes several intentionally vulnerable applications running in Docker containers on top of Kali Linux or Parrot Security OS, several additional tools, and over 9,000 cybersecurity resources.\nWebSploit Labs has been used by many colleges and universities in different countries. It comes with over 500 distinct exercises!",
         "title": "Recon for Red Teamers and Bug Hunters 2.0",
-        "order": "29"
+        "order": 28
       },
       "components": [
         {
@@ -18481,7 +18483,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "OSINT Workshop for Hackers",
-        "order": "24"
+        "order": 23
       },
       "components": [
         {
@@ -19124,7 +19126,7 @@
       "settings": {
         "meta_descr": "The Red Team Village will have five different stations with numerous exercises where attendees can practice their skills and learn new ones.",
         "title": "Stories from the Trenches",
-        "order": "25"
+        "order": 24
       },
       "components": [
         {
@@ -19808,7 +19810,7 @@
       "settings": {
         "meta_descr": "Red Team Village Core Team - Savannah Lazzara, Omar Santos, Barrett Darnell, Danielle Sink, Troy Fridley, Briak Sak, Cory Wolff, Traveler, Greg Hax4Coffee, mauvehed, Krista SmoakMonroe",
         "title": "Red Team Village Core Team",
-        "order": "26"
+        "order": 25
       },
       "components": [
         {
