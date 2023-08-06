@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap);
+
+
+
+
+
 body {
   font-family: Rubik;
 }
@@ -8293,6 +8299,9 @@ section.lazy-placeholder:after {
 }
 .cid-tIObNk0jDl .mbr-section-subtitle {
   color: #767676;
+}
+.cid-tIObNk0jDl H2 {
+  color: #cc2952;
 }
 .cid-tIObNk9PeC {
   padding-top: 60px;
