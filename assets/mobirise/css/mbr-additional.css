@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap);
-
-
-
-
-
 body {
   font-family: Rubik;
 }
@@ -851,6 +845,24 @@ section.lazy-placeholder:after {
   }
 }
 .cid-tdTlChAuSD .mbr-text {
+  color: #767676;
+}
+.cid-tMntFZ9aaw {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-tMntFZ9aaw .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-tMntFZ9aaw .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-tMntFZ9aaw .mbr-text {
   color: #767676;
 }
 .cid-tdTk50xpgs {
