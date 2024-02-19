@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/rtv-2020-icon-servericon.png" type="image/x-icon">
+  <meta name="description" content="We are thrilled to announce the DEF CON Red Team Village Workshops, a groundbreaking opportunity for cybersecurity enthusiasts to enhance their skills and knowledge. Taking place at this year's DEF CON conference, the Red Team Village Workshops will provide an immersive and interactive learning experience like no other. Led by industry experts and seasoned professionals, these workshops will delve into the depths of offensive security techniques, tactics, and methodologies, equipping participants with the tools needed to outsmart adversaries and bolster their defensive strategies. Whether you're an experienced red teamer looking to sharpen your expertise or a novice eager to explore the fascinating world of offensive security, the Red Team Village Workshops will cater to all skill levels. Prepare to dive into hands-on exercises, real-world scenarios, and cutting-edge technologies, all while networking with like-minded individuals and forming invaluable connections. Join us at the DEF CON Red Team Village Workshops and unlock the full potential of your cybersecurity prowess.">
+  
+  
+  <title>How to prioritize Red Team Findings</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu cid-tIOo16TuGk" once="menu" id="menu1-81">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://redteamvillage.io">
+                         <img src="assets/images/rtv-2020-icon-servericon.png" alt="" title="" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="https://redteamvillage.io/">RED TEAM VILLAGE
+                    </a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white text-primary display-4" href="https://discord.gg/redteamvillage" target="_blank"><span class="socicon socicon-discord mbr-iconfont mbr-iconfont-btn"></span>DISCORD</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://twitter.com/RedTeamVillage_" target="_blank"><span class="socicon socicon-twitter mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        TWITTER</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://www.youtube.com/redteamvillage" target="_blank"><span class="socicon socicon-youtube mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        YOUTUBE</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://forms.gle/HVrGA7iyyLsFiu2J8" target="_blank"><span class="mobi-mbri mobi-mbri-hearth mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        SPONSORS</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="schedule.html"><span class="mobi-mbri mobi-mbri-calendar mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        SCHEDULE</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="https://redteamvillage.square.site/" target="_blank"><span class="mobi-mbri mobi-mbri-cart-add mbr-iconfont mbr-iconfont-btn"></span>2023 RTV STORE</a></li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="mbr-section content5 cid-tIOo17nFUX mbr-parallax-background" id="content5-82">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(35, 35, 35);">
+    </div>
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-1">How to prioritize Red Team Findings? Presenting CRTFSS: Common Red Team Findings Score System Ver. 1.0</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style display-5">By: <a href="https://twitter.com/bym0m0" class="text-primary" target="_blank">Guillermo Buendia</a><br><a href="https://twitter.com/bym0m0" class="text-primary" target="_blank">@bym0m0</a></h3>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-tIOo17Imyf" id="content2-83">
+
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 col-md-8 mbr-fonts-style display-7">
+                <blockquote><p><span style="font-style: normal;"><strong>Abstract:</strong></span></p><p><span style="font-style: normal;">Robust red team practices generate multiple findings gradually; defenders struggle to keep up with remediations and detections. All red team findings are critical, but if everything is a priority, then nothing is. Organizations cannot feasibly defend against all ATT&amp;CK techniques. They have more findings than they can optimally assign resources to and focus on the critical ones; they need a system to help them make this task manageable. This Workshop introduces CRTFSS: A methodology to prioritize red team findings using adversary behaviors observed in real-world threat intelligence and mapped to the MITRE ATT&amp;CK based on the most frequent TTPs that score each finding based on the complexity of remediation and exploitability.</span></p><p><span style="font-style: normal; font-size: 1.09rem;">Sure, not all findings can be categorized through this methodology, but it's a start. Whether you work in a security team, need help prioritizing the red team findings that resulted from external assessments or BAS tools, are in an internal red team helping blue teams address critical outcomes, or work as a consultant needing support when reporting to clients, come learn how to prioritize your red team findings better and improve categorizing, tackling the critical ones first, and feel less overwhelmed with this daunting task. This Workshop will guide you through this new methodology and tools, such as the CRTFSS website, to calculate their criticality.</span><br></p><p><span style="font-style: normal; font-size: 1.09rem;">Skill level: All skill levels, from cyber security Entry level positions to Red Team leaders.</span><br></p><p><span style="font-style: normal;">Pre-requisite knowledge: understanding and being able to navigate through the MITRE ATT&amp;CK Enterprise Matrix"</span></p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section once="footers" class="cid-tIOo17Tur7" id="footer7-84">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://twitter.com/VillageRedTeam" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://discord.gg/redteamvillage" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-discord socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://redteamvillage.io/youtube" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.twitch.tv/redteamvillage" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitch socicon"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">(c)2023, Red Team Village</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  
+</body>
+</html>
