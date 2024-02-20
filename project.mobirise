@@ -2,7 +2,11 @@
   "settings": {
     "name": "Red Team Village",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "currentPage": "index.html",
+=======
+    "currentPage": "ai-python-scapy.html",
+>>>>>>> parent of 82aeced (updating site)
 =======
     "currentPage": "ai-python-scapy.html",
 >>>>>>> parent of 82aeced (updating site)
