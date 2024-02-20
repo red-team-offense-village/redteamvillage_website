@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Village",
-    "currentPage": "ai-python-scapy.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,8 +46,8 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 361,
-    "versionPublish": "5.6.13",
+    "uniqCompNum": 358,
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
     "robotsSwitcher": true,
@@ -59,9 +59,7 @@
     "mbrsiteDomain": "xf8lo9qc6u",
     "cookiesAlert": false,
     "gdpr": false,
-    "usedWebp": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "usedWebp": false
   },
   "pages": {
     "index.html": {
@@ -408,59 +406,6 @@
           "_anchor": "content6-4n",
           "_isUserblock": true,
           "_cid": "tdTlChAuSD",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.sektor7.net/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/sektor7-436x67.png\" alt=\"Sektor7\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Platinum Sponsor - SEKTOR7 is an information security research company focusing on developing new and refined offensive techniques and technologies. SEKTOR7's team has a vast experience backed by many years of research and work for external companies. Apart from pure offensive research, they deliver various information security training.<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content6-a0",
-          "_isUserblock": true,
-          "_cid": "tMntFZ9aaw",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1417,59 +1362,6 @@
           "_anchor": "content6-6e",
           "_isUserblock": true,
           "_cid": "tGkUVlRUra",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://hotwan.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hotwan-logo2-436x272.png\" alt=\"HotWAN\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Bronze Sponsor - HotWAN is&nbsp;the Goto Source for RF and Hardware Hacking (Penetration Testing in Wireless and from Endpoint embedded devices to Cloud). Their testing capabilities encompass Machine Learning, Cloud, RF, Hardware Hacking, IoT, Embedded, Medical Devices, Drones and Mobile.<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content6-9z",
-          "_isUserblock": true,
-          "_cid": "tMd4csxscC",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -17488,7 +17380,7 @@
           },
           "_name": "content2",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".mbr-text, blockquote\">\n                <blockquote><p><span style=\"font-style: normal; font-size: 1.09rem;\"><b>Abstract:</b></span><br></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Everyone is Leveraging AI as a Co-Pilot. Let's do it to learn Python and Scapy for Red Team Operations and offensive security.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Artificial Intelligence (AI) has paved its way into many fields, and cybersecurity is no exception. AI can significantly augment red team operations by enhancing the learning process of key tools like Python and Scapy. Let's delve into how AI can act as an indispensable co-pilot in mastering these crucial tools for cybersecurity tasks.</span></span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">One of the primary benefits of utilizing AI in learning things like Python and Scapy is the technology's ability to create personalized, adaptive learning pathways. AI systems can analyze a learner's progress, identify areas where they struggle, and provide additional exercises and resources to bolster understanding.&nbsp;</span><span style=\"font-size: 1.09rem; font-style: normal;\">AI provides real-time, interactive feedback, allowing learners to identify and correct mistakes immediately. In red team operations, where precision and accuracy are paramount, such instantaneous feedback can significantly enhance the learning process. This feature is particularly beneficial in learning programming languages like Python and tools like Scapy, where troubleshooting and debugging are essential skills.</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">This workshop is designed to equip hackers, and IT professionals with advanced techniques and hands-on experience in reconnaissance, exploitation, and post-exploitation operations using Python and Scapy.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Participants will delve into the core of ethical hacking operations, gaining an understanding of Offensive Python.&nbsp; Scapy - a powerful Python-based interactive packet manipulation program and library. The workshop aims to provide attendees with an arsenal of practical skills and techniques.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">The workshop starts with crafting and interpreting TCP/IP packets using Scapy, essential for understanding network traffic and vulnerabilities. We then proceed to creating Python scripts to perform basic network scans and more advanced port scans. This will provide participants with the necessary skills to identify potential points of entry and weaknesses in a system.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Building on these foundational skills, the workshop progresses showing new AI models such as Gorilla, Llama2, and others. You will also learn from different resources from HuggingFace and Google Colab notebooks with hands-on examples.</span></p><p><br></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".mbr-text, blockquote\">\n                <blockquote><p><span style=\"font-style: normal; font-size: 1.09rem;\"><b>Abstract:</b></span><br></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Everyone is Leveraging AI as a Co-Pilot. Let's do it to learn Python and Scapy for Red Team Operations and offensive security.</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-size: 1.09rem;\">Artificial Intelligence (AI) has paved its way into many fields, and cybersecurity is no exception. AI can significantly augment red team operations by enhancing the learning process of key tools like Python and Scapy. Let's delve into how AI can act as an indispensable co-pilot in mastering these crucial tools for cybersecurity tasks.</span></span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">One of the primary benefits of utilizing AI in learning things like Python and Scapy is the technology's ability to create personalized, adaptive learning pathways. AI systems can analyze a learner's progress, identify areas where they struggle, and provide additional exercises and resources to bolster understanding.&nbsp;</span><span style=\"font-size: 1.09rem; font-style: normal;\">AI provides real-time, interactive feedback, allowing learners to identify and correct mistakes immediately. In red team operations, where precision and accuracy are paramount, such instantaneous feedback can significantly enhance the learning process. This feature is particularly beneficial in learning programming languages like Python and tools like Scapy, where troubleshooting and debugging are essential skills.</span></p><p><span style=\"font-size: 1.09rem; font-style: normal;\">This workshop is designed to equip hackers, and IT professionals with advanced techniques and hands-on experience in reconnaissance, exploitation, and post-exploitation operations using Python and Scapy.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Participants will delve into the core of ethical hacking operations, gaining an understanding of Offensive Python.&nbsp; Scapy - a powerful Python-based interactive packet manipulation program and library. The workshop aims to provide attendees with an arsenal of practical skills and techniques.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">The workshop starts with crafting and interpreting TCP/IP packets using Scapy, essential for understanding network traffic and vulnerabilities. We then proceed to creating Python scripts to perform basic network scans and more advanced port scans. This will provide participants with the necessary skills to identify potential points of entry and weaknesses in a system.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">Building on these foundational skills, the workshop progresses to network sniffing and packet analysis, giving participants the ability to capture and dissect network traffic. This section lays the groundwork for understanding more complex attacks, such as ARP and DNS spoofing, which participants will learn to implement in a controlled environment.</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">The latter part of the workshop focuses on exploiting known vulnerabilities and simulating post-exploitation scenarios. This includes an exercise on creating data exfiltration techniques like DNS tunneling, IPv6 obfuscation techniques, encryption, and more.&nbsp;</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\">You will use WebSploit Labs to complete the exercises.</span></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"><b>About WebSploit Labs</b></span></p><p><span style=\"font-style: normal;\">WebSploit Labs is a learning environment created by Omar Santos for different Cybersecurity Ethical Hacking, Bug Hunting, Incident Response, Digital Forensics, and Threat Hunting training sessions. WebSploit Labs includes several intentionally vulnerable applications running in Docker containers on top of Kali Linux or Parrot Security OS, several additional tools, and over 9,000 cybersecurity resources. </span></p><p><span style=\"font-style: normal;\">W</span><span style=\"font-style: normal; font-size: 1.09rem;\">ebSploit Labs has been used by many colleges and universities in different countries. It comes with over 500 distinct exercises!</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tIOHzTBylr",
           "_anchor": "content2-90",
           "_protectedParams": [],
