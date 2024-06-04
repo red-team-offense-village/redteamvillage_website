@@ -1274,6 +1274,24 @@ section.lazy-placeholder:after {
 .cid-uar46jFS8l .mbr-text {
   color: #000000;
 }
+.cid-ueM58N6vTF {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-ueM58N6vTF .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-ueM58N6vTF .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-ueM58N6vTF .mbr-text {
+  color: #000000;
+}
 .cid-ub67KdFtTH {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -4501,40 +4519,6 @@ section.lazy-placeholder:after {
 .cid-tbvGY8jiRN .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-uebhZbOmrH {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #2e2e2e;
-}
-.cid-uebhZbOmrH P {
-  color: #767676;
-}
-.cid-uebhZbOmrH H1 {
-  color: #ffffff;
-}
-.cid-uebhPSHg5v {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
-}
-.cid-uebhPSHg5v .line {
-  background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-uebhPSHg5v .section-text {
-  padding: 2rem 0;
-}
-.cid-uebhPSHg5v .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-uebhPSHg5v .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-s8UP0PtG7E .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -4942,6 +4926,40 @@ section.lazy-placeholder:after {
 .cid-s8UP0PtG7E .nav-link:hover,
 .cid-s8UP0PtG7E .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-uebhZbOmrH {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #2e2e2e;
+}
+.cid-uebhZbOmrH P {
+  color: #767676;
+}
+.cid-uebhZbOmrH H1 {
+  color: #ffffff;
+}
+.cid-uebhPSHg5v {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-uebhPSHg5v .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-uebhPSHg5v .section-text {
+  padding: 2rem 0;
+}
+.cid-uebhPSHg5v .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-uebhPSHg5v .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-s8UP1ImVio {
   padding-top: 30px;
