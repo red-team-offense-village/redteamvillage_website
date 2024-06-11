@@ -1292,6 +1292,24 @@ section.lazy-placeholder:after {
 .cid-ueM58N6vTF .mbr-text {
   color: #000000;
 }
+.cid-ufqZpO5YsN {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-ufqZpO5YsN .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-ufqZpO5YsN .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-ufqZpO5YsN .mbr-text {
+  color: #000000;
+}
 .cid-ub67KdFtTH {
   padding-top: 60px;
   padding-bottom: 60px;
