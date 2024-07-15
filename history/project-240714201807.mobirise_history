@@ -28,13 +28,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#ff6839",
         "#2e2e2e",
         "#b00b0b",
         "#d45555",
         "#570404",
         "#554346",
-        "#000000"
+        "#000000",
+        "#030c0e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 447,
+    "uniqCompNum": 426,
     "versionPublish": "5.9.13",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -1568,7 +1568,7 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://tryhackme.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/tryhackme-logo-black-436x239.png\" alt=\"TryHackMe\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"> Elevate your security expertise with <b>TryHackMe</b>, the world's leading technical cyber security training platform designed exclusively for security professionals. Offering over 800 hands-on labs, we cater to all skill levels, from novice to expert. Dive deep into red teaming, blue teaming, and DevSecOps as our platform delivers unparalleled training across various cyber security domains. Through a blend of realistic challenges and robust learning resources, TryHackMe empowers individuals and teams to translate knowledge into action, mastering their skills through real-world scenarios, hands-on challenges and immersive learning experiences.<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://tryhackme.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/tryhackme%20logo-black-436x239.png\" alt=\"TryHackMe\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"> Elevate your security expertise with <b>TryHackMe</b>, the world's leading technical cyber security training platform designed exclusively for security professionals. Offering over 800 hands-on labs, we cater to all skill levels, from novice to expert. Dive deep into red teaming, blue teaming, and DevSecOps as our platform delivers unparalleled training across various cyber security domains. Through a blend of realistic challenges and robust learning resources, TryHackMe empowers individuals and teams to translate knowledge into action, mastering their skills through real-world scenarios, hands-on challenges and immersive learning experiences.<br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content6-b9",
           "_isUserblock": true,
           "_cid": "uhGzJl9VON",
@@ -1840,138 +1840,253 @@
           "_params": {}
         },
         {
-          "_name": "image01",
-          "_sourceTheme": "preschoolm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image01\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Amount\" name=\"cardAmount\" min=\"2\" max=\"6\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Shadow\" name=\"hasShadow\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/preschoolm5/components/_images/bg/4-bg.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/preschoolm5/components/_images/bg/1-bg.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"wrapper justify-content-center\">\n            <div class=\"left-col\">\n                <div class=\"row flex-column\">\n                    <div class=\"col-12 mb-3\">\n                        <div class=\"card\">\n                            <a href=\"https://www.arcanum-sec.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/arcanum-mascot-a-2.svg\" alt=\"ARCANUM\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card\">\n                            <a href=\"https://shop.hak5.org/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/hak5-logo-16x9-white-bg-800x333.png\" alt=\"HAK5\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card\">\n                            <a href=\"https://millgroupinc.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/logo-millenium.webp\" alt=\"Millennium Corp\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"right-col\">\n                <div class=\"row flex-column\">\n                    <div class=\"col-12 mb-3\">\n                        <div class=\"card\">\n                            <a href=\"https://bc-security.org/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/bcs-solid-blue-436x436.png\" alt=\"BC Security\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card\">\n                            <a href=\"https://kindo.ai/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/kindologo-blk.svg\" alt=\"Kindo\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card\">\n                            <a href=\"https://nostarch.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/nsp-logo-436x436.png\" alt=\"No Starch Press\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
             },
-            ".wrapper": {
-              "display": "flex",
-              "flex-wrap": "wrap",
-              "@media (min-width: 992px)": {
-                "& .left-col": {
-                  "flex": "1 0 50%",
-                  "padding-right": "12px"
-                },
-                "& .right-col": {
-                  "flex": "1 0 50%",
-                  "padding-left": "12px"
-                }
-              }
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
             },
-            ".card": {
-              "padding": "0",
-              "background-color": "#fff",
-              "overflow": "hidden",
-              "& when (@hasShadow)": {
-                "box-shadow": "0px 10px 20px 0px rgba(29, 29, 27, 0.2)"
-              }
-            },
-            ".card-img": {
-              "width": "100%",
-              "height": "100%",
-              "margin": "0",
-              "object-fit": "cover",
-              "border-radius": "20px"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
               "position": "absolute",
+              "left": "0",
               "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
               }
             }
           },
-          "_cid": "uiymAfvCMO",
-          "_protectedParams": [],
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
+          "_cid": "uixYkHc8wC",
+          "_anchor": "gallery1-bn",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image01-cd"
-        },
-        {
-          "_name": "image01",
-          "_sourceTheme": "preschoolm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image01\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Card</header>\n        <input type=\"range\" inline title=\"Amount\" name=\"cardAmount\" min=\"2\" max=\"6\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Shadow\" name=\"hasShadow\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/preschoolm5/components/_images/bg/4-bg.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/preschoolm5/components/_images/bg/1-bg.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"wrapper justify-content-center\">\n            <div class=\"left-col\">\n                <div class=\"row flex-column\">\n                    <div class=\"col-12 mb-3\">\n                        <div class=\"card\">\n                            <a href=\"https://www.pentesterlab.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/untitled-436x146-436x146.png\" alt=\"PentesterLab\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card\">\n                            <a href=\"https://www.thertfm.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/rtfm-436x415-436x415.png\" alt=\"RTFM\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card\">\n                            <a href=\"https://www.sans.org/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/sans-1-436x232.png\" alt=\"SANS\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"right-col\">\n                <div class=\"row flex-column\">\n                    <div class=\"col-12 mb-3\">\n                        <div class=\"card\">\n                            <a href=\"https://redteam.guide/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/book-cover-3d-300x379.png\" alt=\"Red Team Development and Operations\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card\">\n                            <a href=\"https://secops.group/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/final-logo-1-500x188.png\" alt=\"SecOps\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card\">\n                            <a href=\"https://institute.sektor7.net/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/sektor7-436x67.png\" alt=\"Sektor7\" class=\"card-img\"></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".wrapper": {
-              "display": "flex",
-              "flex-wrap": "wrap",
-              "@media (min-width: 992px)": {
-                "& .left-col": {
-                  "flex": "1 0 50%",
-                  "padding-right": "12px"
-                },
-                "& .right-col": {
-                  "flex": "1 0 50%",
-                  "padding-left": "12px"
-                }
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/arcanum-mascot-a-2.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/arcanum-mascot-a-2.svg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "ARCANUM",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/bcs-2-2-436x156.png",
+                "thumb": "@PROJECT_PATH@/assets/images/bcs-2-2-436x156-436x156.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/hak5_logo_16x9_white-bg-436x182.png",
+                "thumb": "@PROJECT_PATH@/assets/images/hak5-logo-16x9-white-bg-436x182-436x182.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/kindologo-blk.svg",
+                "thumb": "@PROJECT_PATH@/assets/images/kindologo-blk.svg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/millennium%20corp%20logo_white%20wording%20-436x189.png",
+                "thumb": "@PROJECT_PATH@/assets/images/millennium-corp-logo-white-wording-436x189-436x189.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/nostarch-436x436.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/nostarch-436x436-436x436.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/untitled-436x146.png",
+                "thumb": "@PROJECT_PATH@/assets/images/untitled-436x146-436x146.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/book-cover-3d-300x379.png",
+                "thumb": "@PROJECT_PATH@/assets/images/book-cover-3d-300x379-300x379.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/rtfm-436x415.png",
+                "thumb": "@PROJECT_PATH@/assets/images/rtfm-436x415-436x415.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sans-1-436x232.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sans-1-436x232-436x232.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/final%20logo-1-500x188.png",
+                "thumb": "@PROJECT_PATH@/assets/images/final-logo-1-500x188-500x188.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sektor7-436x67.png",
+                "thumb": "@PROJECT_PATH@/assets/images/sektor7-436x67-436x67.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
               }
-            },
-            ".card": {
-              "padding": "0",
-              "background-color": "#fff",
-              "overflow": "hidden",
-              "& when (@hasShadow)": {
-                "box-shadow": "0px 10px 20px 0px rgba(29, 29, 27, 0.2)"
-              }
-            },
-            ".card-img": {
-              "width": "100%",
-              "height": "100%",
-              "margin": "0",
-              "object-fit": "cover",
-              "border-radius": "20px"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            }
-          },
-          "_cid": "uiyn60lGJg",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "image01-ce"
+            ]
+          }
         },
         {
           "alias": false,
@@ -6418,11 +6533,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "tbvGY83SZH",
-          "_anchor": "menu1-bf",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_anchor": "menu1-bf"
         },
         {
           "alias": false,
@@ -6463,11 +6578,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/rtv-2020-icon-servericon.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br>RED TEAM RUMBLE</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\">Ready to flex your hacking muscles and show off your elite skills?<br>Join us for the Red Team Rumble Special Event at Defcon 32! \n<br><b>Eight teams will enter, but only one team will emerge victorious!</b><br><br><b><a href=\"page7.html#features6-bi\" class=\"text-primary\">Details Below!</a></b><br></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://forms.gle/cJDFS6R318p3MBDCA\" data-app-placeholder=\"Type Text\" target=\"_blank\">Sign-Up!</a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/red-team-rumble-1368x780.png\" alt=\"Red Team Rumble!\" mbr-style=\"{'width': mediaSize + '%'}\">\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "uieA6yhUru",
-          "_anchor": "header4-bh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header4-bh"
         },
         {
           "alias": false,
@@ -6515,11 +6630,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Cards Bg\" name=\"cardsBg\" value=\"#030c0e\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mbrib-italic\" style=\"color: rgb(176, 11, 11); fill: rgb(176, 11, 11);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">What is Red Team Rumble?</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Red Team Rumble is a tournament in which teams compete in a castle vs. castle event. <br><br>Teams are tasked with protecting their systems and services while identifying and exploiting vulnerabilities in other teams' castles.<br><br>By defending their own services and attacking opponents' systems, teams get points for controlling services and flags.\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-calendar mobi-mbri\" style=\"color: rgb(176, 11, 11); fill: rgb(176, 11, 11);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">When is Red Team Rumble Taking Place?</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Saturday, Aug 10, 2024 10:00am-6:00pm\n                    </p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\" style=\"color: rgb(176, 11, 11); fill: rgb(176, 11, 11);\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">Where Will Red Team Rumble Be Held?</h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">The event will be held at the Red Team Village Competition Area at DefCon 32&nbsp;<br></p>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img pb-3\">\n                    <span mbr-icon class=\"mbri-desktop mbr-iconfont\"></span>\n                </div>\n                <div class=\"card-box\">\n                    <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                        Unlimited Sites\n                    </h4>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                       Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                    </p>\n                </div>\n            </div>\n\n        </div>\n\n    </div>\n\n</section>",
           "_cid": "uieBmu8dHD",
-          "_anchor": "features6-bi",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features6-bi"
         },
         {
           "alias": false,
@@ -6715,11 +6830,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "tbvGY8jiRN",
-          "_anchor": "footer7-bg",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {}
+          "_params": {},
+          "_anchor": "footer7-bg"
         }
       ]
     }
