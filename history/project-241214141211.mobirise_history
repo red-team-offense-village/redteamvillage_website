@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Red Team Village",
-    "currentPage": "index.html",
+    "currentPage": "schedule.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 502,
+    "uniqCompNum": 500,
     "versionPublish": "5.9.13",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -770,59 +770,6 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"http://convisoappsec.com/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/conviso_logo-436x94.png\" alt=\"Conviso\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"http://convisoappsec.com/\" class=\"text-primary\" target=\"_blank\">Conviso</a> is an application security specialist and a reference in AppSec. With over 16 years of experience, we serve financial institutions, including the largest banks in Brazil, and companies vulnerable to fraud worldwide.<br><br><b>Find us on:<br>Instagram:&nbsp;</b><a href=\"https://www.instagram.com/convisoappsec\" class=\"text-primary\" target=\"_blank\">https://www.instagram.com/convisoappsec</a><b><br>Linkedin:&nbsp;</b><a href=\"https://www.linkedin.com/company/convisoappsec\" class=\"text-primary\" target=\"_blank\">https://www.linkedin.com/company/convisoappsec</a><b><br>Twitter (X):&nbsp;</b><a href=\"https://x.com/conviso\" class=\"text-primary\" target=\"_blank\">https://x.com/conviso</a><b><br>Youtube:&nbsp;</b><a href=\"https://www.youtube.com/@convisoappsec\" class=\"text-primary\" target=\"_blank\">https://www.youtube.com/@convisoappsec</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content6-dx",
-          "_isUserblock": true,
-          "_cid": "uwXzlnhdCR",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#000000"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.grupontsec.com.br/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/grupo-cor-positivo-436x117.png\" alt=\"NTSec Group\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">With over 17 years of expertise in cybersecurity, the <a href=\"https://www.grupontsec.com.br/\" class=\"text-primary\" target=\"_blank\">NTSec Group</a> stands out as a leader in delivering advanced, integrated solutions across networks, infrastructure, cloud, and datasecurity. Driven by a culture of innovation and a steadfast commitment to building a secure digital future, NTSec empowers its 500+ clients to thrive confidently. Our cutting-edge portfolio ensures resilience against technological challenges, enabling businesses to focus on growth with peace of mind.<br><br><b>Find us on:<br>Instagram:&nbsp;</b><a href=\"https://www.instagram.com/grupontsec?igsh=MW16d2s1cWM2cm9mbA==\" class=\"text-primary\" target=\"_blank\">https://www.instagram.com/grupontsec</a><b><br>Linkedin:&nbsp;</b><a href=\"https://www.linkedin.com/company/grupontsec\" class=\"text-primary\" target=\"_blank\">https://www.linkedin.com/company/grupontsec</a><b><br>Youtube:</b>&nbsp;<a href=\"https://www.youtube.com/@GrupoNTSec2\" class=\"text-primary\" target=\"_blank\">https://www.youtube.com/@GrupoNTSec2</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content6-du",
           "_isUserblock": true,
@@ -958,59 +905,6 @@
           "_anchor": "content6-dq",
           "_isUserblock": true,
           "_cid": "uvm569eaJy",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when not (@reverseContent)": {
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-right": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".mbr-figure": {
-                  "padding-bottom": "1rem"
-                }
-              }
-            },
-            "& when (@reverseContent)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "-webkit-flex-direction": "row-reverse"
-              },
-              "@media (min-width: 992px)": {
-                ".mbr-figure": {
-                  "padding-left": "4rem"
-                }
-              },
-              "@media (max-width: 991px)": {
-                ".media-container-row": {
-                  "flex-wrap": "wrap-reverse",
-                  "-webkit-flex-wrap": "wrap-reverse"
-                },
-                ".mbr-figure": {
-                  "padding-top": "1rem"
-                }
-              }
-            },
-            ".mbr-text": {
-              "color": "#000000"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.ibliss.com.br/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/ibliss_logo_original-436x160.png\" alt=\"IBLISS Digital Security\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">At <a href=\"https://www.ibliss.com.br/\" class=\"text-primary\" target=\"_blank\">IBLISS Digital Security</a>, we're driven by a powerful purpose: to create a more secure digital society. For over 14 years, we are at the forefront of cybersecurity, working tirelessly to protect organizations from digital threats with the vision to become the national benchmark for effective cybersecurity programs for organizations.<br><br><b>Find us on:<br>Instagram:<a href=\"https://www.instagram.com/iblissdigitalsecurity/\" class=\"text-primary\" target=\"_blank\">&nbsp;</a></b><a href=\"https://www.instagram.com/iblissdigitalsecurity/\" class=\"text-primary\" target=\"_blank\">https://www.instagram.com/iblissdigitalsecurity/</a><b><br>Linkedin:&nbsp;</b><a href=\"https://www.linkedin.com/company/ibliss-digital-security/\" class=\"text-primary\" target=\"_blank\">https://www.linkedin.com/company/ibliss-digital-security/</a><b><br>Youtube:&nbsp;</b><a href=\"https://www.youtube.com/c/IBLISSDigitalSecurity\" class=\"text-primary\" target=\"_blank\">https://www.youtube.com/c/IBLISSDigitalSecurity</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content6-dw",
-          "_isUserblock": true,
-          "_cid": "uwXzl311JO",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
