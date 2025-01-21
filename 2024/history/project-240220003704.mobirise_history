@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "path": "@PROJECT_PATH@",
+    "name": "Red Team Village",
+    "screenshot": "screenshot.png",
+    "versionFirst": "5.2.0",
+    "siteFonts": [],
+    "theme": {},
+    "currentPage": "index.html",
+    "versionPublish": "5.2.0",
+    "imageResize": true,
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": []
+    }
+  }
+}
