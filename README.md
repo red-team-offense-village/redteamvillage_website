@@ -1,3 +1,6 @@
+# THIS IS AN ARCHIVE OF THE OLD RTV WEBSITE
+We're archiving this for historical purposes and using a new repo for the site located at https://github.com/red-team-offense-village/website
+
 # RED TEAM VILLAGE - AN OFFICIAL DEF CON VILLAGE
 This is the code (source) for the [Red Team Village](https://redteamvillage.io) DEF CON official village.
 
